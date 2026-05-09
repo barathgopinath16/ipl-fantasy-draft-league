@@ -199,12 +199,13 @@ function renderCurrentPage() {
 function renderLeaderboard() {
   const el = document.getElementById('page-leaderboard');
   const lb = DATA.leaderboard;
+  const fixtures = DATA.fixtures?.fixtures || [];
   if (!lb) { el.innerHTML = loading(); return; }
 
   const owners = lb.owners;
   const maxPts = Math.max(...owners.map(o => o.total_points));
   const totalPts = owners.reduce((a, o) => a + o.total_points, 0);
-  const history = DATA.match_history || {};
+  const matchesCompleted = fixtures.filter(f => f.status === 'Completed').length;
 
   el.innerHTML = `
     <div class="page-header">
@@ -215,7 +216,7 @@ function renderLeaderboard() {
       <div class="stat-card"><div class="stat-label">Total Owners</div><div class="stat-value">${owners.length}</div></div>
       <div class="stat-card"><div class="stat-label">Total Points</div><div class="stat-value">${Math.round(totalPts).toLocaleString()}</div></div>
       <div class="stat-card"><div class="stat-label">Leader</div><div class="stat-value" style="font-size:18px">${owners[0]?.owner || '—'}</div><div class="stat-sub">${owners[0]?.total_points.toLocaleString()} pts</div></div>
-      <div class="stat-card"><div class="stat-label">Matches Tracked</div><div class="stat-value">${Object.keys(history[owners[0]?.owner] || {}).length}</div></div>
+      <div class="stat-card"><div class="stat-label">Matches Tracked</div><div class="stat-value">${matchesCompleted}</div><div class="stat-sub">of ${fixtures.length} matches</div></div>
     </div>
     <div class="card">
       <div class="card-header"><span class="card-title">Rankings</span><span style="font-size:12px;color:var(--text-muted)">Milestone-adjusted points</span></div>
@@ -300,7 +301,16 @@ function renderRosters() {
     </div>` : ''}`;
 }
 
-function selectOwner(name) { currentOwner = name; renderRosters(); }
+function selectOwner(name) {
+  const tabsEl = document.querySelector('.owner-tabs');
+  const scrollLeft = tabsEl ? tabsEl.scrollLeft : 0;
+  currentOwner = name;
+  renderRosters();
+  setTimeout(() => {
+    const newTabsEl = document.querySelector('.owner-tabs');
+    if (newTabsEl) newTabsEl.scrollLeft = scrollLeft;
+  }, 0);
+}
 
 // ── All Players ──
 function renderPlayers() {
