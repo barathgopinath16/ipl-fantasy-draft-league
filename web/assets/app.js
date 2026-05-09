@@ -192,15 +192,13 @@ function renderRosters() {
       <div class="card-header"><span class="card-title">Active Squad</span></div>
       <div class="table-wrap">
         <table class="data-table">
-          <thead><tr><th>#</th><th>Player</th><th>Team</th><th>Role</th><th>Status</th><th>Phase</th><th class="ta-r">Owner Pts</th></tr></thead>
+          <thead><tr><th>#</th><th>Player</th><th>Team</th><th>Status</th><th class="ta-r">Owner Pts</th></tr></thead>
           <tbody>${active.map((p,i) => `
             <tr>
               <td style="color:var(--text-dim)">${i+1}</td>
               <td style="font-weight:600">${p.name}</td>
               <td><span class="team-badge">${p.team}</span></td>
-              <td>${roleIcon[p.role]||'—'} <span style="color:var(--text-muted)">${p.role}</span></td>
               <td><span class="status-badge badge-${p.status}">${p.status}</span></td>
-              <td style="color:var(--text-muted);font-size:12px">${p.phase}</td>
               <td class="ta-r"><b>${p.owner_points.toLocaleString()}</b></td>
             </tr>`).join('')}
           </tbody>
@@ -212,13 +210,11 @@ function renderRosters() {
       <div class="card-header"><span class="card-title">Dropped Players</span><span style="font-size:12px;color:var(--text-muted)">Points frozen at milestone</span></div>
       <div class="table-wrap">
         <table class="data-table">
-          <thead><tr><th>Player</th><th>Team</th><th>Role</th><th>Phase</th><th class="ta-r">Frozen Pts</th></tr></thead>
+          <thead><tr><th>Player</th><th>Team</th><th class="ta-r">Frozen Pts</th></tr></thead>
           <tbody>${dropped.map(p => `
             <tr style="opacity:.65">
               <td style="font-weight:600">${p.name}</td>
               <td><span class="team-badge">${p.team}</span></td>
-              <td>${roleIcon[p.role]||'—'} <span style="color:var(--text-muted)">${p.role}</span></td>
-              <td style="color:var(--text-muted);font-size:12px">${p.phase}</td>
               <td class="ta-r">${p.owner_points.toLocaleString()}</td>
             </tr>`).join('')}
           </tbody>
