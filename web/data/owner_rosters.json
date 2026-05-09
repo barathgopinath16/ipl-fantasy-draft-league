@@ -1,0 +1,1564 @@
+{
+  "Kaushik": {
+    "active_count": 20,
+    "total_points": 6640.0,
+    "players": [
+      {
+        "name": "Heinrich Klaasen",
+        "team": "SRH",
+        "role": "WICKET KEEPER",
+        "credits": 10.0,
+        "total_api_points": 788.0,
+        "owner_points": 788.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Vaibhav Sooryavanshi",
+        "team": "RR",
+        "role": "BATSMAN",
+        "credits": 9.0,
+        "total_api_points": 639.0,
+        "owner_points": 639.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Ryan Rickelton",
+        "team": "MI",
+        "role": "WICKET KEEPER",
+        "credits": 9.0,
+        "total_api_points": 601.0,
+        "owner_points": 601.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Virat Kohli",
+        "team": "RCB",
+        "role": "BATSMAN",
+        "credits": 11.0,
+        "total_api_points": 599.0,
+        "owner_points": 599.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Bhuvneshwar Kumar",
+        "team": "RCB",
+        "role": "BOWLER",
+        "credits": 9.0,
+        "total_api_points": 563.0,
+        "owner_points": 563.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Rajat Patidar",
+        "team": "RCB",
+        "role": "BATSMAN",
+        "credits": 9.0,
+        "total_api_points": 541.0,
+        "owner_points": 541.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Kagiso Rabada",
+        "team": "GT",
+        "role": "BOWLER",
+        "credits": 7.5,
+        "total_api_points": 540.0,
+        "owner_points": 540.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Rinku Singh",
+        "team": "KKR",
+        "role": "BATSMAN",
+        "credits": 9.0,
+        "total_api_points": 433.0,
+        "owner_points": 433.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Rashid Khan",
+        "team": "GT",
+        "role": "BOWLER",
+        "credits": 9.5,
+        "total_api_points": 410.0,
+        "owner_points": 410.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Quinton de Kock",
+        "team": "MI",
+        "role": "WICKET KEEPER",
+        "credits": 8.0,
+        "total_api_points": 221.0,
+        "owner_points": 221.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Shashank Singh",
+        "team": "PBKS",
+        "role": "BATSMAN",
+        "credits": 9.0,
+        "total_api_points": 212.0,
+        "owner_points": 212.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Mitchell Santner",
+        "team": "MI",
+        "role": "ALL ROUNDER",
+        "credits": 9.0,
+        "total_api_points": 194.0,
+        "owner_points": 194.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Ramandeep Singh",
+        "team": "KKR",
+        "role": "BATSMAN",
+        "credits": 7.5,
+        "total_api_points": 181.0,
+        "owner_points": 181.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Gurjapneet Singh",
+        "team": "CSK",
+        "role": "BOWLER",
+        "credits": 7.0,
+        "total_api_points": 164.0,
+        "owner_points": 164.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Rahul Tewatia",
+        "team": "GT",
+        "role": "ALL ROUNDER",
+        "credits": 9.0,
+        "total_api_points": 144.0,
+        "owner_points": 144.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Vijaykumar Vyshak",
+        "team": "PBKS",
+        "role": "BOWLER",
+        "credits": 8.0,
+        "total_api_points": 263.0,
+        "owner_points": 114.0,
+        "status": "replacement",
+        "phase": "M26+"
+      },
+      {
+        "name": "Praful Hinge",
+        "team": "SRH",
+        "role": "BOWLER",
+        "credits": 7.0,
+        "total_api_points": 222.0,
+        "owner_points": 94.0,
+        "status": "replacement",
+        "phase": "M26+"
+      },
+      {
+        "name": "Trent Boult",
+        "team": "MI",
+        "role": "BOWLER",
+        "credits": 10.0,
+        "total_api_points": 84.0,
+        "owner_points": 84.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Venkatesh Iyer",
+        "team": "RCB",
+        "role": "ALL ROUNDER",
+        "credits": 9.0,
+        "total_api_points": 61.0,
+        "owner_points": 61.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Shahrukh Khan",
+        "team": "GT",
+        "role": "BATSMAN",
+        "credits": 8.5,
+        "total_api_points": 112.0,
+        "owner_points": 49.0,
+        "status": "dropped",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Rahul Chahar",
+        "team": "CSK",
+        "role": "BOWLER",
+        "credits": 7.0,
+        "total_api_points": 8.0,
+        "owner_points": 8.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Ishant Sharma",
+        "team": "GT",
+        "role": "BOWLER",
+        "credits": 8.0,
+        "total_api_points": 0.0,
+        "owner_points": 0.0,
+        "status": "dropped",
+        "phase": "M1-M25"
+      }
+    ]
+  },
+  "Vignesh": {
+    "active_count": 20,
+    "total_points": 4904.0,
+    "players": [
+      {
+        "name": "KL Rahul",
+        "team": "DC",
+        "role": "WICKET KEEPER",
+        "credits": 10.0,
+        "total_api_points": 720.0,
+        "owner_points": 720.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Nitish Kumar Reddy",
+        "team": "SRH",
+        "role": "ALL ROUNDER",
+        "credits": 9.0,
+        "total_api_points": 577.0,
+        "owner_points": 577.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Shreyas Iyer",
+        "team": "PBKS",
+        "role": "BATSMAN",
+        "credits": 10.5,
+        "total_api_points": 551.0,
+        "owner_points": 551.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Noor Ahmad",
+        "team": "CSK",
+        "role": "BOWLER",
+        "credits": 9.0,
+        "total_api_points": 361.0,
+        "owner_points": 361.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Hardik Pandya",
+        "team": "MI",
+        "role": "ALL ROUNDER",
+        "credits": 10.5,
+        "total_api_points": 330.0,
+        "owner_points": 330.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Rohit Sharma",
+        "team": "MI",
+        "role": "BATSMAN",
+        "credits": 10.0,
+        "total_api_points": 326.0,
+        "owner_points": 326.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Romario Shepherd",
+        "team": "RCB",
+        "role": "ALL ROUNDER",
+        "credits": 8.5,
+        "total_api_points": 282.0,
+        "owner_points": 282.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Yuzvendra Chahal",
+        "team": "PBKS",
+        "role": "BOWLER",
+        "credits": 9.5,
+        "total_api_points": 248.0,
+        "owner_points": 248.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Suyash Sharma",
+        "team": "RCB",
+        "role": "BOWLER",
+        "credits": 8.0,
+        "total_api_points": 229.0,
+        "owner_points": 229.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Jitesh Sharma",
+        "team": "RCB",
+        "role": "WICKET KEEPER",
+        "credits": 9.0,
+        "total_api_points": 215.0,
+        "owner_points": 215.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Akeal Hosein",
+        "team": "CSK",
+        "role": "BOWLER",
+        "credits": 7.5,
+        "total_api_points": 255.0,
+        "owner_points": 214.0,
+        "status": "replacement",
+        "phase": "M26+"
+      },
+      {
+        "name": "Ashutosh Sharma",
+        "team": "DC",
+        "role": "BATSMAN",
+        "credits": 9.0,
+        "total_api_points": 189.0,
+        "owner_points": 189.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Jacob Duffy",
+        "team": "RCB",
+        "role": "BOWLER",
+        "credits": 7.0,
+        "total_api_points": 166.0,
+        "owner_points": 166.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Shimron Hetmyer",
+        "team": "RR",
+        "role": "BATSMAN",
+        "credits": 9.5,
+        "total_api_points": 158.0,
+        "owner_points": 158.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Jaydev Unadkat",
+        "team": "SRH",
+        "role": "BOWLER",
+        "credits": 7.0,
+        "total_api_points": 144.0,
+        "owner_points": 144.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Prashant Veer",
+        "team": "CSK",
+        "role": "ALL ROUNDER",
+        "credits": 8.0,
+        "total_api_points": 70.0,
+        "owner_points": 70.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Mukul Choudhary",
+        "team": "LSG",
+        "role": "WICKET KEEPER",
+        "credits": 7.0,
+        "total_api_points": 257.0,
+        "owner_points": 54.0,
+        "status": "replacement",
+        "phase": "M26+"
+      },
+      {
+        "name": "Deepak Chahar",
+        "team": "MI",
+        "role": "BOWLER",
+        "credits": 9.5,
+        "total_api_points": 50.0,
+        "owner_points": 50.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Harshal Patel",
+        "team": "SRH",
+        "role": "BOWLER",
+        "credits": 9.5,
+        "total_api_points": 20.0,
+        "owner_points": 20.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Mitchell Owen",
+        "team": "PBKS",
+        "role": "ALL ROUNDER",
+        "credits": 7.5,
+        "total_api_points": 0.0,
+        "owner_points": 0.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Mayank Yadav",
+        "team": "LSG",
+        "role": "BOWLER",
+        "credits": 7.5,
+        "total_api_points": 2.0,
+        "owner_points": 0.0,
+        "status": "dropped",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Mangesh Yadav",
+        "team": "RCB",
+        "role": "ALL ROUNDER",
+        "credits": 7.5,
+        "total_api_points": 0.0,
+        "owner_points": 0.0,
+        "status": "dropped",
+        "phase": "M1-M25"
+      }
+    ]
+  },
+  "Aravinth": {
+    "active_count": 20,
+    "total_points": 5866.0,
+    "players": [
+      {
+        "name": "Ishan Kishan",
+        "team": "SRH",
+        "role": "WICKET KEEPER",
+        "credits": 10.5,
+        "total_api_points": 678.0,
+        "owner_points": 678.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Prabhsimran Singh",
+        "team": "PBKS",
+        "role": "WICKET KEEPER",
+        "credits": 9.0,
+        "total_api_points": 585.0,
+        "owner_points": 585.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Angkrish Raghuvanshi",
+        "team": "KKR",
+        "role": "BATSMAN",
+        "credits": 9.0,
+        "total_api_points": 438.0,
+        "owner_points": 438.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Tim David",
+        "team": "RCB",
+        "role": "BATSMAN",
+        "credits": 9.0,
+        "total_api_points": 376.0,
+        "owner_points": 376.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Nitish Rana",
+        "team": "DC",
+        "role": "BATSMAN",
+        "credits": 8.5,
+        "total_api_points": 374.0,
+        "owner_points": 374.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Tilak Varma",
+        "team": "MI",
+        "role": "BATSMAN",
+        "credits": 10.0,
+        "total_api_points": 365.0,
+        "owner_points": 365.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Ravi Bishnoi",
+        "team": "RR",
+        "role": "BOWLER",
+        "credits": 8.5,
+        "total_api_points": 359.0,
+        "owner_points": 359.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Finn Allen",
+        "team": "KKR",
+        "role": "WICKET KEEPER",
+        "credits": 7.0,
+        "total_api_points": 335.0,
+        "owner_points": 335.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Jason Holder",
+        "team": "GT",
+        "role": "ALL ROUNDER",
+        "credits": 8.0,
+        "total_api_points": 326.0,
+        "owner_points": 326.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Nicholas Pooran",
+        "team": "LSG",
+        "role": "WICKET KEEPER",
+        "credits": 10.5,
+        "total_api_points": 325.0,
+        "owner_points": 325.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Harsh Dubey",
+        "team": "SRH",
+        "role": "ALL ROUNDER",
+        "credits": 8.5,
+        "total_api_points": 277.0,
+        "owner_points": 277.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Kuldeep Yadav",
+        "team": "DC",
+        "role": "BOWLER",
+        "credits": 9.5,
+        "total_api_points": 244.0,
+        "owner_points": 244.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Varun Chakaravarthy",
+        "team": "KKR",
+        "role": "BOWLER",
+        "credits": 10.0,
+        "total_api_points": 308.0,
+        "owner_points": 238.0,
+        "status": "replacement",
+        "phase": "M26+"
+      },
+      {
+        "name": "Dewald Brevis",
+        "team": "CSK",
+        "role": "ALL ROUNDER",
+        "credits": 9.0,
+        "total_api_points": 207.0,
+        "owner_points": 207.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Sakib Hussain",
+        "team": "SRH",
+        "role": "BOWLER",
+        "credits": 7.0,
+        "total_api_points": 310.0,
+        "owner_points": 188.0,
+        "status": "replacement",
+        "phase": "M26+"
+      },
+      {
+        "name": "Sherfane Rutherford",
+        "team": "MI",
+        "role": "BATSMAN",
+        "credits": 8.0,
+        "total_api_points": 183.0,
+        "owner_points": 183.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Digvesh Singh",
+        "team": "LSG",
+        "role": "BOWLER",
+        "credits": 9.0,
+        "total_api_points": 121.0,
+        "owner_points": 121.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Abdul Samad",
+        "team": "LSG",
+        "role": "BATSMAN",
+        "credits": 8.0,
+        "total_api_points": 115.0,
+        "owner_points": 115.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Vipraj Nigam",
+        "team": "DC",
+        "role": "ALL ROUNDER",
+        "credits": 9.0,
+        "total_api_points": 75.0,
+        "owner_points": 75.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Liam Livingstone",
+        "team": "SRH",
+        "role": "ALL ROUNDER",
+        "credits": 9.0,
+        "total_api_points": 57.0,
+        "owner_points": 57.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Zeeshan Ansari",
+        "team": "SRH",
+        "role": "BOWLER",
+        "credits": 7.0,
+        "total_api_points": 0.0,
+        "owner_points": 0.0,
+        "status": "dropped",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Harpreet Brar",
+        "team": "PBKS",
+        "role": "BOWLER",
+        "credits": 8.5,
+        "total_api_points": 6.0,
+        "owner_points": 0.0,
+        "status": "dropped",
+        "phase": "M1-M25"
+      }
+    ]
+  },
+  "Sid": {
+    "active_count": 20,
+    "total_points": 6041.0,
+    "players": [
+      {
+        "name": "Jos Buttler",
+        "team": "GT",
+        "role": "WICKET KEEPER",
+        "credits": 10.0,
+        "total_api_points": 647.0,
+        "owner_points": 647.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Dhruv Jurel",
+        "team": "RR",
+        "role": "WICKET KEEPER",
+        "credits": 9.0,
+        "total_api_points": 567.0,
+        "owner_points": 567.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Jofra Archer",
+        "team": "RR",
+        "role": "BOWLER",
+        "credits": 9.5,
+        "total_api_points": 514.0,
+        "owner_points": 514.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Cameron Green",
+        "team": "KKR",
+        "role": "BATSMAN",
+        "credits": 8.0,
+        "total_api_points": 486.0,
+        "owner_points": 486.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Rishabh Pant",
+        "team": "LSG",
+        "role": "WICKET KEEPER",
+        "credits": 9.5,
+        "total_api_points": 441.0,
+        "owner_points": 441.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Naman Dhir",
+        "team": "MI",
+        "role": "ALL ROUNDER",
+        "credits": 9.5,
+        "total_api_points": 435.0,
+        "owner_points": 435.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Ravindra Jadeja",
+        "team": "RR",
+        "role": "ALL ROUNDER",
+        "credits": 10.5,
+        "total_api_points": 433.0,
+        "owner_points": 433.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Sunil Narine",
+        "team": "KKR",
+        "role": "ALL ROUNDER",
+        "credits": 10.5,
+        "total_api_points": 396.0,
+        "owner_points": 396.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Marcus Stoinis",
+        "team": "PBKS",
+        "role": "ALL ROUNDER",
+        "credits": 9.0,
+        "total_api_points": 325.0,
+        "owner_points": 325.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Mohammad Shami",
+        "team": "LSG",
+        "role": "BOWLER",
+        "credits": 8.5,
+        "total_api_points": 322.0,
+        "owner_points": 322.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Ayush Mhatre",
+        "team": "CSK",
+        "role": "BATSMAN",
+        "credits": 9.0,
+        "total_api_points": 311.0,
+        "owner_points": 311.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Sarfaraz Khan",
+        "team": "CSK",
+        "role": "BATSMAN",
+        "credits": 7.0,
+        "total_api_points": 292.0,
+        "owner_points": 292.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "David Miller",
+        "team": "DC",
+        "role": "BATSMAN",
+        "credits": 9.0,
+        "total_api_points": 217.0,
+        "owner_points": 217.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Glenn Phillips",
+        "team": "GT",
+        "role": "ALL ROUNDER",
+        "credits": 8.0,
+        "total_api_points": 165.0,
+        "owner_points": 165.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Avesh Khan",
+        "team": "LSG",
+        "role": "BOWLER",
+        "credits": 8.0,
+        "total_api_points": 162.0,
+        "owner_points": 162.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "T Natarajan",
+        "team": "DC",
+        "role": "BOWLER",
+        "credits": 7.5,
+        "total_api_points": 160.0,
+        "owner_points": 160.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Jasprit Bumrah",
+        "team": "MI",
+        "role": "BOWLER",
+        "credits": 11.0,
+        "total_api_points": 139.0,
+        "owner_points": 139.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Karun Nair",
+        "team": "DC",
+        "role": "BATSMAN",
+        "credits": 8.0,
+        "total_api_points": 29.0,
+        "owner_points": 29.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "MS Dhoni",
+        "team": "CSK",
+        "role": "WICKET KEEPER",
+        "credits": 8.5,
+        "total_api_points": 0.0,
+        "owner_points": 0.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Arjun Tendulkar",
+        "team": "LSG",
+        "role": "BOWLER",
+        "credits": 7.0,
+        "total_api_points": 0.0,
+        "owner_points": 0.0,
+        "status": "original",
+        "phase": "M1-M25"
+      }
+    ]
+  },
+  "Barath": {
+    "active_count": 20,
+    "total_points": 6695.0,
+    "players": [
+      {
+        "name": "Sanju Samson",
+        "team": "CSK",
+        "role": "WICKET KEEPER",
+        "credits": 9.5,
+        "total_api_points": 626.0,
+        "owner_points": 626.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Devdutt Padikkal",
+        "team": "RCB",
+        "role": "BATSMAN",
+        "credits": 9.0,
+        "total_api_points": 576.0,
+        "owner_points": 576.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Jamie Overton",
+        "team": "CSK",
+        "role": "ALL ROUNDER",
+        "credits": 8.0,
+        "total_api_points": 518.0,
+        "owner_points": 518.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Priyansh Arya",
+        "team": "PBKS",
+        "role": "BATSMAN",
+        "credits": 9.5,
+        "total_api_points": 449.0,
+        "owner_points": 449.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Pathum Nissanka",
+        "team": "DC",
+        "role": "BATSMAN",
+        "credits": 7.0,
+        "total_api_points": 445.0,
+        "owner_points": 445.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Donovan Ferreira",
+        "team": "RR",
+        "role": "WICKET KEEPER",
+        "credits": 7.5,
+        "total_api_points": 444.0,
+        "owner_points": 444.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Krunal Pandya",
+        "team": "RCB",
+        "role": "ALL ROUNDER",
+        "credits": 9.0,
+        "total_api_points": 408.0,
+        "owner_points": 408.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Aiden Markram",
+        "team": "LSG",
+        "role": "ALL ROUNDER",
+        "credits": 10.0,
+        "total_api_points": 401.0,
+        "owner_points": 401.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Ruturaj Gaikwad",
+        "team": "CSK",
+        "role": "BATSMAN",
+        "credits": 9.0,
+        "total_api_points": 396.0,
+        "owner_points": 396.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Riyan Parag",
+        "team": "RR",
+        "role": "ALL ROUNDER",
+        "credits": 9.0,
+        "total_api_points": 395.0,
+        "owner_points": 395.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Cooper Connolly",
+        "team": "PBKS",
+        "role": "ALL ROUNDER",
+        "credits": 7.5,
+        "total_api_points": 604.0,
+        "owner_points": 383.0,
+        "status": "replacement",
+        "phase": "M26+"
+      },
+      {
+        "name": "Washington Sundar",
+        "team": "GT",
+        "role": "ALL ROUNDER",
+        "credits": 8.5,
+        "total_api_points": 377.0,
+        "owner_points": 377.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Marco Jansen",
+        "team": "PBKS",
+        "role": "ALL ROUNDER",
+        "credits": 9.5,
+        "total_api_points": 284.0,
+        "owner_points": 284.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Kartik Sharma",
+        "team": "CSK",
+        "role": "WICKET KEEPER",
+        "credits": 7.5,
+        "total_api_points": 234.0,
+        "owner_points": 234.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Xavier Bartlett",
+        "team": "PBKS",
+        "role": "BOWLER",
+        "credits": 7.0,
+        "total_api_points": 222.0,
+        "owner_points": 222.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Aniket Verma",
+        "team": "SRH",
+        "role": "ALL ROUNDER",
+        "credits": 9.0,
+        "total_api_points": 185.0,
+        "owner_points": 185.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Tushar Deshpande",
+        "team": "RR",
+        "role": "BOWLER",
+        "credits": 8.5,
+        "total_api_points": 147.0,
+        "owner_points": 147.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Will Jacks",
+        "team": "MI",
+        "role": "ALL ROUNDER",
+        "credits": 9.0,
+        "total_api_points": 119.0,
+        "owner_points": 119.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Varun Chakaravarthy",
+        "team": "KKR",
+        "role": "BOWLER",
+        "credits": 10.0,
+        "total_api_points": 308.0,
+        "owner_points": 70.0,
+        "status": "dropped",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Mayank Markande",
+        "team": "MI",
+        "role": "BOWLER",
+        "credits": 7.5,
+        "total_api_points": 12.0,
+        "owner_points": 12.0,
+        "status": "dropped",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Auqib Nabi",
+        "team": "DC",
+        "role": "ALL ROUNDER",
+        "credits": 7.5,
+        "total_api_points": 5.0,
+        "owner_points": 5.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Ashok Sharma",
+        "team": "GT",
+        "role": "BOWLER",
+        "credits": 7.0,
+        "total_api_points": 165.0,
+        "owner_points": -1.0,
+        "status": "replacement",
+        "phase": "M26+"
+      }
+    ]
+  },
+  "JR": {
+    "active_count": 20,
+    "total_points": 4589.0,
+    "players": [
+      {
+        "name": "Shubman Gill",
+        "team": "GT",
+        "role": "BATSMAN",
+        "credits": 10.0,
+        "total_api_points": 609.0,
+        "owner_points": 609.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Travis Head",
+        "team": "SRH",
+        "role": "BATSMAN",
+        "credits": 10.0,
+        "total_api_points": 549.0,
+        "owner_points": 549.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Axar Patel",
+        "team": "DC",
+        "role": "ALL ROUNDER",
+        "credits": 9.5,
+        "total_api_points": 371.0,
+        "owner_points": 371.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Anukul Roy",
+        "team": "KKR",
+        "role": "ALL ROUNDER",
+        "credits": 7.5,
+        "total_api_points": 357.0,
+        "owner_points": 357.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Mohsin Khan",
+        "team": "LSG",
+        "role": "BOWLER",
+        "credits": 7.5,
+        "total_api_points": 348.0,
+        "owner_points": 348.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Suryakumar Yadav",
+        "team": "MI",
+        "role": "BATSMAN",
+        "credits": 10.5,
+        "total_api_points": 322.0,
+        "owner_points": 322.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Josh Hazlewood",
+        "team": "RCB",
+        "role": "BOWLER",
+        "credits": 10.0,
+        "total_api_points": 301.0,
+        "owner_points": 301.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Shivam Dube",
+        "team": "CSK",
+        "role": "ALL ROUNDER",
+        "credits": 10.0,
+        "total_api_points": 273.0,
+        "owner_points": 273.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Ayush Badoni",
+        "team": "LSG",
+        "role": "BATSMAN",
+        "credits": 9.0,
+        "total_api_points": 266.0,
+        "owner_points": 266.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Rovman Powell",
+        "team": "KKR",
+        "role": "BATSMAN",
+        "credits": 8.0,
+        "total_api_points": 232.0,
+        "owner_points": 232.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Ashwani Kumar",
+        "team": "MI",
+        "role": "BOWLER",
+        "credits": 8.5,
+        "total_api_points": 167.0,
+        "owner_points": 167.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Sameer Rizvi",
+        "team": "DC",
+        "role": "BATSMAN",
+        "credits": 8.5,
+        "total_api_points": 403.0,
+        "owner_points": 164.0,
+        "status": "replacement",
+        "phase": "M26+"
+      },
+      {
+        "name": "Sandeep Sharma",
+        "team": "RR",
+        "role": "BOWLER",
+        "credits": 8.0,
+        "total_api_points": 163.0,
+        "owner_points": 163.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Nehal Wadhera",
+        "team": "PBKS",
+        "role": "BATSMAN",
+        "credits": 9.5,
+        "total_api_points": 127.0,
+        "owner_points": 127.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Shivang Kumar",
+        "team": "SRH",
+        "role": "ALL ROUNDER",
+        "credits": 7.5,
+        "total_api_points": 257.0,
+        "owner_points": 122.0,
+        "status": "replacement",
+        "phase": "M26+"
+      },
+      {
+        "name": "Mitchell Starc",
+        "team": "DC",
+        "role": "BOWLER",
+        "credits": 10.0,
+        "total_api_points": 107.0,
+        "owner_points": 107.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Khaleel Ahmed",
+        "team": "CSK",
+        "role": "BOWLER",
+        "credits": 9.5,
+        "total_api_points": 70.0,
+        "owner_points": 70.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Abishek Porel",
+        "team": "DC",
+        "role": "WICKET KEEPER",
+        "credits": 8.5,
+        "total_api_points": 41.0,
+        "owner_points": 41.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Sai Kishore",
+        "team": "GT",
+        "role": "BOWLER",
+        "credits": 9.5,
+        "total_api_points": 0.0,
+        "owner_points": 0.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Azmatullah Omarzai",
+        "team": "PBKS",
+        "role": "ALL ROUNDER",
+        "credits": 9.0,
+        "total_api_points": 0.0,
+        "owner_points": 0.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Brydon Carse",
+        "team": "SRH",
+        "role": "BOWLER",
+        "credits": 7.0,
+        "total_api_points": 0.0,
+        "owner_points": 0.0,
+        "status": "dropped",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Jacob Bethell",
+        "team": "RCB",
+        "role": "BATSMAN",
+        "credits": 7.5,
+        "total_api_points": 85.0,
+        "owner_points": 0.0,
+        "status": "dropped",
+        "phase": "M1-M25"
+      }
+    ]
+  },
+  "Venky": {
+    "active_count": 20,
+    "total_points": 7479.0,
+    "players": [
+      {
+        "name": "Abhishek Sharma",
+        "team": "SRH",
+        "role": "ALL ROUNDER",
+        "credits": 10.5,
+        "total_api_points": 768.0,
+        "owner_points": 768.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Sai Sudharsan",
+        "team": "GT",
+        "role": "BATSMAN",
+        "credits": 10.0,
+        "total_api_points": 593.0,
+        "owner_points": 593.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Mitchell Marsh",
+        "team": "LSG",
+        "role": "ALL ROUNDER",
+        "credits": 10.0,
+        "total_api_points": 566.0,
+        "owner_points": 566.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Anshul Kamboj",
+        "team": "CSK",
+        "role": "BOWLER",
+        "credits": 8.5,
+        "total_api_points": 562.0,
+        "owner_points": 562.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Yashasvi Jaiswal",
+        "team": "RR",
+        "role": "BATSMAN",
+        "credits": 10.0,
+        "total_api_points": 488.0,
+        "owner_points": 488.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Tristan Stubbs",
+        "team": "DC",
+        "role": "BATSMAN",
+        "credits": 9.0,
+        "total_api_points": 414.0,
+        "owner_points": 414.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Kartik Tyagi",
+        "team": "KKR",
+        "role": "BOWLER",
+        "credits": 7.0,
+        "total_api_points": 413.0,
+        "owner_points": 413.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Ajinkya Rahane",
+        "team": "KKR",
+        "role": "BATSMAN",
+        "credits": 9.0,
+        "total_api_points": 355.0,
+        "owner_points": 355.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "AM Ghazanfar",
+        "team": "MI",
+        "role": "BOWLER",
+        "credits": 7.0,
+        "total_api_points": 354.0,
+        "owner_points": 354.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Phil Salt",
+        "team": "RCB",
+        "role": "WICKET KEEPER",
+        "credits": 9.5,
+        "total_api_points": 348.0,
+        "owner_points": 348.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Mohammed Siraj",
+        "team": "GT",
+        "role": "BOWLER",
+        "credits": 9.5,
+        "total_api_points": 343.0,
+        "owner_points": 343.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Prasidh Krishna",
+        "team": "GT",
+        "role": "BOWLER",
+        "credits": 9.0,
+        "total_api_points": 334.0,
+        "owner_points": 334.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Arshdeep Singh",
+        "team": "PBKS",
+        "role": "BOWLER",
+        "credits": 10.0,
+        "total_api_points": 332.0,
+        "owner_points": 332.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Vaibhav Arora",
+        "team": "KKR",
+        "role": "BOWLER",
+        "credits": 9.0,
+        "total_api_points": 332.0,
+        "owner_points": 332.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Lungi Ngidi",
+        "team": "DC",
+        "role": "BOWLER",
+        "credits": 8.0,
+        "total_api_points": 270.0,
+        "owner_points": 270.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Nandre Burger",
+        "team": "RR",
+        "role": "BOWLER",
+        "credits": 7.0,
+        "total_api_points": 264.0,
+        "owner_points": 264.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Prince Yadav",
+        "team": "LSG",
+        "role": "BOWLER",
+        "credits": 7.0,
+        "total_api_points": 520.0,
+        "owner_points": 235.0,
+        "status": "replacement",
+        "phase": "M26+"
+      },
+      {
+        "name": "Salil Arora",
+        "team": "SRH",
+        "role": "WICKET KEEPER",
+        "credits": 7.0,
+        "total_api_points": 195.0,
+        "owner_points": 195.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Shardul Thakur",
+        "team": "MI",
+        "role": "ALL ROUNDER",
+        "credits": 9.0,
+        "total_api_points": 169.0,
+        "owner_points": 169.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Matt Henry",
+        "team": "CSK",
+        "role": "BOWLER",
+        "credits": 7.5,
+        "total_api_points": 68.0,
+        "owner_points": 68.0,
+        "status": "dropped",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Rasikh Salam",
+        "team": "RCB",
+        "role": "BOWLER",
+        "credits": 7.5,
+        "total_api_points": 223.0,
+        "owner_points": 56.0,
+        "status": "replacement",
+        "phase": "M26+"
+      },
+      {
+        "name": "Shahbaz Ahmed",
+        "team": "LSG",
+        "role": "ALL ROUNDER",
+        "credits": 8.0,
+        "total_api_points": 70.0,
+        "owner_points": 20.0,
+        "status": "dropped",
+        "phase": "M1-M25"
+      }
+    ]
+  }
+}

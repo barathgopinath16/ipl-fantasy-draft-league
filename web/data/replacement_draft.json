@@ -1,0 +1,82 @@
+{
+  "milestones": [
+    {
+      "milestone_id": 1,
+      "after_match": 25,
+      "description": "First replacement window — after Match 25",
+      "snapshot_gameday_id": 25,
+      "replacements": {
+        "Kaushik": {
+          "dropped": [
+            "Shahrukh Khan",
+            "Ishant Sharma"
+          ],
+          "picked": [
+            "Praful Hinge",
+            "Vijaykumar Vyshak"
+          ]
+        },
+        "Vignesh": {
+          "dropped": [
+            "Mayank Yadav",
+            "Mangesh Yadav"
+          ],
+          "picked": [
+            "Akeal Hosein",
+            "Mukul Choudhary"
+          ]
+        },
+        "Aravinth": {
+          "dropped": [
+            "Zeeshan Ansari",
+            "Harpreet Brar"
+          ],
+          "picked": [
+            "Varun Chakaravarthy",
+            "Sakib Hussain"
+          ]
+        },
+        "Sid": {
+          "dropped": [
+            "Arjun Tendulkar",
+            "Karun Nair"
+          ],
+          "picked": [
+            "Arjun Tendulkar",
+            "Karun Nair"
+          ]
+        },
+        "Barath": {
+          "dropped": [
+            "Mayank Markande",
+            "Varun Chakaravarthy"
+          ],
+          "picked": [
+            "Cooper Connolly",
+            "Ashok Sharma"
+          ]
+        },
+        "JR": {
+          "dropped": [
+            "Brydon Carse",
+            "Jacob Bethell"
+          ],
+          "picked": [
+            "Sameer Rizvi",
+            "Shivang Kumar"
+          ]
+        },
+        "Venky": {
+          "dropped": [
+            "Shahbaz Ahmed",
+            "Matt Henry"
+          ],
+          "picked": [
+            "Prince Yadav",
+            "Rasikh Salam"
+          ]
+        }
+      }
+    }
+  ]
+}

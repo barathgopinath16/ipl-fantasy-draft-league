@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IPL Fantasy Pro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div id="app">
+    <!-- Sidebar -->
+    <nav id="sidebar">
+      <div class="sidebar-logo">
+        <span class="logo-icon">🏏</span>
+        <div>
+          <div class="logo-title">IPL Fantasy</div>
+          <div class="logo-sub">Pro Analytics</div>
+        </div>
+      </div>
+      <div class="sidebar-meta" id="meta-info">
+        <div class="meta-label">Last Updated</div>
+        <div class="meta-value" id="meta-timestamp">—</div>
+      </div>
+      <ul class="nav-list">
+        <li><a href="#" class="nav-item active" data-page="leaderboard"><span class="nav-icon">🏆</span> Leaderboard</a></li>
+        <li><a href="#" class="nav-item" data-page="rosters"><span class="nav-icon">👤</span> Owner Rosters</a></li>
+        <li><a href="#" class="nav-item" data-page="players"><span class="nav-icon">🎯</span> All Players</a></li>
+        <li><a href="#" class="nav-item" data-page="fixtures"><span class="nav-icon">📅</span> Fixtures</a></li>
+        <li><a href="#" class="nav-item" data-page="config"><span class="nav-icon">⚙️</span> Replacement Config</a></li>
+      </ul>
+      <div class="sidebar-footer">
+        <button class="refresh-btn" id="refresh-btn" onclick="refreshData()">
+          <span id="refresh-icon">🔄</span> Refresh Data
+        </button>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main">
+      <div id="page-leaderboard" class="page active"></div>
+      <div id="page-rosters" class="page"></div>
+      <div id="page-players" class="page"></div>
+      <div id="page-fixtures" class="page"></div>
+      <div id="page-config" class="page"></div>
+    </main>
+  </div>
+
+  <script src="assets/scoring.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

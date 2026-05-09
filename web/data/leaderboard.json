@@ -1,0 +1,54 @@
+{
+  "updated_at": "2026-05-09 13:29:15",
+  "owners": [
+    {
+      "rank": 1,
+      "owner": "Venky",
+      "total_points": 7479.0,
+      "last_update_points": 430,
+      "player_count": 20
+    },
+    {
+      "rank": 2,
+      "owner": "Barath",
+      "total_points": 6695.0,
+      "last_update_points": 218,
+      "player_count": 20
+    },
+    {
+      "rank": 3,
+      "owner": "Kaushik",
+      "total_points": 6640.0,
+      "last_update_points": 112,
+      "player_count": 20
+    },
+    {
+      "rank": 4,
+      "owner": "Sid",
+      "total_points": 6041.0,
+      "last_update_points": 212,
+      "player_count": 20
+    },
+    {
+      "rank": 5,
+      "owner": "Aravinth",
+      "total_points": 5866.0,
+      "last_update_points": 316,
+      "player_count": 20
+    },
+    {
+      "rank": 6,
+      "owner": "Vignesh",
+      "total_points": 4904.0,
+      "last_update_points": 136,
+      "player_count": 20
+    },
+    {
+      "rank": 7,
+      "owner": "JR",
+      "total_points": 4589.0,
+      "last_update_points": 172,
+      "player_count": 20
+    }
+  ]
+}

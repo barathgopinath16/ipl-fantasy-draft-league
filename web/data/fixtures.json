@@ -1,0 +1,704 @@
+{
+  "fixtures": [
+    {
+      "match": 1,
+      "gameday_id": 1,
+      "date": "2026-03-28",
+      "home": "RCB",
+      "away": "SRH",
+      "venue": "M.Chinnaswamy Stadium, Bengaluru",
+      "result": "Royal Challengers Bengaluru beat Sunrisers Hyderabad by 6 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 2,
+      "gameday_id": 2,
+      "date": "2026-03-29",
+      "home": "MI",
+      "away": "KKR",
+      "venue": "Wankhede Stadium, Mumbai",
+      "result": "Mumbai Indians beat Kolkata Knight Riders by 6 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 3,
+      "gameday_id": 3,
+      "date": "2026-03-30",
+      "home": "RR",
+      "away": "CSK",
+      "venue": "Barsapara Cricket Stadium, Guwahati",
+      "result": "Rajasthan Royals beat Chennai Super Kings by 8 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 4,
+      "gameday_id": 4,
+      "date": "2026-03-31",
+      "home": "PBKS",
+      "away": "GT",
+      "venue": "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",
+      "result": "Punjab Kings beat Gujarat Titans by 3 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 5,
+      "gameday_id": 5,
+      "date": "2026-04-01",
+      "home": "LSG",
+      "away": "DC",
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "result": "Delhi Capitals beat Lucknow Super Giants by 6 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 6,
+      "gameday_id": 6,
+      "date": "2026-04-02",
+      "home": "KKR",
+      "away": "SRH",
+      "venue": "Eden Gardens, Kolkata",
+      "result": "Sunrisers Hyderabad beat Kolkata Knight Riders by 65 runs",
+      "status": "Completed"
+    },
+    {
+      "match": 7,
+      "gameday_id": 7,
+      "date": "2026-04-03",
+      "home": "CSK",
+      "away": "PBKS",
+      "venue": "MA Chidambaram Stadium, Chennai",
+      "result": "Punjab Kings beat Chennai Super Kings by 5 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 8,
+      "gameday_id": 8,
+      "date": "2026-04-04",
+      "home": "DC",
+      "away": "MI",
+      "venue": "Arun Jaitley Stadium, Delhi",
+      "result": "Delhi Capitals beat Mumbai Indians by 6 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 9,
+      "gameday_id": 9,
+      "date": "2026-04-04",
+      "home": "GT",
+      "away": "RR",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "result": "Rajasthan Royals beat Gujarat Titans by 6 runs",
+      "status": "Completed"
+    },
+    {
+      "match": 10,
+      "gameday_id": 10,
+      "date": "2026-04-05",
+      "home": "SRH",
+      "away": "LSG",
+      "venue": "Rajiv Gandhi International Stadium, Hyderabad",
+      "result": "Lucknow Super Giants beat Sunrisers Hyderabad by 5 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 11,
+      "gameday_id": 11,
+      "date": "2026-04-05",
+      "home": "RCB",
+      "away": "CSK",
+      "venue": "M.Chinnaswamy Stadium, Bengaluru",
+      "result": "Royal Challengers Bengaluru beat Chennai Super Kings by 43 runs",
+      "status": "Completed"
+    },
+    {
+      "match": 12,
+      "gameday_id": 12,
+      "date": "2026-04-06",
+      "home": "KKR",
+      "away": "PBKS",
+      "venue": "Eden Gardens, Kolkata",
+      "result": null,
+      "status": "Pending"
+    },
+    {
+      "match": 13,
+      "gameday_id": 13,
+      "date": "2026-04-07",
+      "home": "RR",
+      "away": "MI",
+      "venue": "Barsapara Cricket Stadium, Guwahati",
+      "result": "Rajasthan Royals beat Mumbai Indians by 27 runs",
+      "status": "Completed"
+    },
+    {
+      "match": 14,
+      "gameday_id": 14,
+      "date": "2026-04-08",
+      "home": "DC",
+      "away": "GT",
+      "venue": "Arun Jaitley Stadium, Delhi",
+      "result": "Gujarat Titans beat Delhi Capitals by 1 run",
+      "status": "Completed"
+    },
+    {
+      "match": 15,
+      "gameday_id": 15,
+      "date": "2026-04-09",
+      "home": "KKR",
+      "away": "LSG",
+      "venue": "Eden Gardens, Kolkata",
+      "result": "Lucknow Super Giants beat Kolkata Knight Riders by 3 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 16,
+      "gameday_id": 16,
+      "date": "2026-04-10",
+      "home": "RR",
+      "away": "RCB",
+      "venue": "Barsapara Cricket Stadium, Guwahati",
+      "result": "Rajasthan Royals beat Royal Challengers Bengaluru by 6 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 17,
+      "gameday_id": 17,
+      "date": "2026-04-11",
+      "home": "PBKS",
+      "away": "SRH",
+      "venue": "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",
+      "result": "Punjab Kings beat Sunrisers Hyderabad by 6 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 18,
+      "gameday_id": 18,
+      "date": "2026-04-11",
+      "home": "CSK",
+      "away": "DC",
+      "venue": "MA Chidambaram Stadium, Chennai",
+      "result": "Chennai Super Kings beat Delhi Capitals by 23 runs",
+      "status": "Completed"
+    },
+    {
+      "match": 19,
+      "gameday_id": 19,
+      "date": "2026-04-12",
+      "home": "LSG",
+      "away": "GT",
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "result": "Gujarat Titans beat Lucknow Super Giants by 7 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 20,
+      "gameday_id": 20,
+      "date": "2026-04-12",
+      "home": "MI",
+      "away": "RCB",
+      "venue": "Wankhede Stadium, Mumbai",
+      "result": "Royal Challengers Bengaluru beat Mumbai Indians by 18 runs",
+      "status": "Completed"
+    },
+    {
+      "match": 21,
+      "gameday_id": 21,
+      "date": "2026-04-13",
+      "home": "SRH",
+      "away": "RR",
+      "venue": "Rajiv Gandhi International Stadium, Hyderabad",
+      "result": "Sunrisers Hyderabad beat Rajasthan Royals by 57 runs",
+      "status": "Completed"
+    },
+    {
+      "match": 22,
+      "gameday_id": 22,
+      "date": "2026-04-14",
+      "home": "CSK",
+      "away": "KKR",
+      "venue": "MA Chidambaram Stadium, Chennai",
+      "result": "Chennai Super Kings beat Kolkata Knight Riders by 32 runs",
+      "status": "Completed"
+    },
+    {
+      "match": 23,
+      "gameday_id": 23,
+      "date": "2026-04-15",
+      "home": "RCB",
+      "away": "LSG",
+      "venue": "M.Chinnaswamy Stadium, Bengaluru",
+      "result": "Royal Challengers Bengaluru beat Lucknow Super Giants by 5 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 24,
+      "gameday_id": 24,
+      "date": "2026-04-16",
+      "home": "MI",
+      "away": "PBKS",
+      "venue": "Wankhede Stadium, Mumbai",
+      "result": "Punjab Kings beat Mumbai Indians by 7 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 25,
+      "gameday_id": 25,
+      "date": "2026-04-17",
+      "home": "GT",
+      "away": "KKR",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "result": "Gujarat Titans beat Kolkata Knight Riders by 5 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 26,
+      "gameday_id": 26,
+      "date": "2026-04-18",
+      "home": "RCB",
+      "away": "DC",
+      "venue": "M.Chinnaswamy Stadium, Bengaluru",
+      "result": "Delhi Capitals beat Royal Challengers Bengaluru by 6 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 27,
+      "gameday_id": 27,
+      "date": "2026-04-18",
+      "home": "SRH",
+      "away": "CSK",
+      "venue": "Rajiv Gandhi International Stadium, Hyderabad",
+      "result": "Sunrisers Hyderabad beat Chennai Super Kings by 10 runs",
+      "status": "Completed"
+    },
+    {
+      "match": 28,
+      "gameday_id": 28,
+      "date": "2026-04-19",
+      "home": "KKR",
+      "away": "RR",
+      "venue": "Eden Gardens, Kolkata",
+      "result": "Kolkata Knight Riders beat Rajasthan Royals by 4 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 29,
+      "gameday_id": 29,
+      "date": "2026-04-19",
+      "home": "PBKS",
+      "away": "LSG",
+      "venue": "New International Cricket Stadium, New Chandigarh",
+      "result": "Punjab Kings beat Lucknow Super Giants by 54 runs",
+      "status": "Completed"
+    },
+    {
+      "match": 30,
+      "gameday_id": 30,
+      "date": "2026-04-20",
+      "home": "GT",
+      "away": "MI",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "result": "Mumbai Indians beat Gujarat Titans by 99 runs",
+      "status": "Completed"
+    },
+    {
+      "match": 31,
+      "gameday_id": 31,
+      "date": "2026-04-21",
+      "home": "SRH",
+      "away": "DC",
+      "venue": "Rajiv Gandhi International Stadium, Hyderabad",
+      "result": "Sunrisers Hyderabad beat Delhi Capitals by 47 runs",
+      "status": "Completed"
+    },
+    {
+      "match": 32,
+      "gameday_id": 32,
+      "date": "2026-04-22",
+      "home": "LSG",
+      "away": "RR",
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "result": "Rajasthan Royals beat Lucknow Super Giants by 40 runs",
+      "status": "Completed"
+    },
+    {
+      "match": 33,
+      "gameday_id": 33,
+      "date": "2026-04-23",
+      "home": "MI",
+      "away": "CSK",
+      "venue": "Wankhede Stadium, Mumbai",
+      "result": "Chennai Super Kings beat Mumbai Indians by 103 runs",
+      "status": "Completed"
+    },
+    {
+      "match": 34,
+      "gameday_id": 34,
+      "date": "2026-04-24",
+      "home": "RCB",
+      "away": "GT",
+      "venue": "M.Chinnaswamy Stadium, Bengaluru",
+      "result": "Royal Challengers Bengaluru beat Gujarat Titans by 5 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 35,
+      "gameday_id": 35,
+      "date": "2026-04-25",
+      "home": "DC",
+      "away": "PBKS",
+      "venue": "Arun Jaitley Stadium, Delhi",
+      "result": "Punjab Kings beat Delhi Capitals by 6 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 36,
+      "gameday_id": 36,
+      "date": "2026-04-25",
+      "home": "RR",
+      "away": "SRH",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "result": "Sunrisers Hyderabad beat Rajasthan Royals by 5 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 37,
+      "gameday_id": 37,
+      "date": "2026-04-26",
+      "home": "CSK",
+      "away": "GT",
+      "venue": "MA Chidambaram Stadium, Chennai",
+      "result": "Gujarat Titans beat Chennai Super Kings by 8 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 38,
+      "gameday_id": 38,
+      "date": "2026-04-26",
+      "home": "LSG",
+      "away": "KKR",
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "result": "Kolkata Knight Riders tied with Lucknow Super Giants (Kolkata Knight Riders win Super Over by 2 wickets)",
+      "status": "Completed"
+    },
+    {
+      "match": 39,
+      "gameday_id": 39,
+      "date": "2026-04-27",
+      "home": "DC",
+      "away": "RCB",
+      "venue": "Arun Jaitley Stadium, Delhi",
+      "result": "Royal Challengers Bengaluru beat Delhi Capitals by 9 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 40,
+      "gameday_id": 40,
+      "date": "2026-04-28",
+      "home": "PBKS",
+      "away": "RR",
+      "venue": "New International Cricket Stadium, New Chandigarh",
+      "result": "Rajasthan Royals beat Punjab Kings by 6 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 41,
+      "gameday_id": 41,
+      "date": "2026-04-29",
+      "home": "MI",
+      "away": "SRH",
+      "venue": "Wankhede Stadium, Mumbai",
+      "result": "Sunrisers Hyderabad beat Mumbai Indians by 6 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 42,
+      "gameday_id": 42,
+      "date": "2026-04-30",
+      "home": "GT",
+      "away": "RCB",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "result": "Gujarat Titans beat Royal Challengers Bengaluru by 4 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 43,
+      "gameday_id": 43,
+      "date": "2026-05-01",
+      "home": "RR",
+      "away": "DC",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "result": "Delhi Capitals beat Rajasthan Royals by 7 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 44,
+      "gameday_id": 44,
+      "date": "2026-05-02",
+      "home": "CSK",
+      "away": "MI",
+      "venue": "MA Chidambaram Stadium, Chennai",
+      "result": "Chennai Super Kings beat Mumbai Indians by 8 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 45,
+      "gameday_id": 45,
+      "date": "2026-05-03",
+      "home": "SRH",
+      "away": "KKR",
+      "venue": "Rajiv Gandhi International Stadium, Hyderabad",
+      "result": "Kolkata Knight Riders beat Sunrisers Hyderabad by 7 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 46,
+      "gameday_id": 46,
+      "date": "2026-05-03",
+      "home": "GT",
+      "away": "PBKS",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "result": "Gujarat Titans beat Punjab Kings by 4 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 47,
+      "gameday_id": 47,
+      "date": "2026-05-04",
+      "home": "MI",
+      "away": "LSG",
+      "venue": "Wankhede Stadium, Mumbai",
+      "result": "Mumbai Indians beat Lucknow Super Giants by 6 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 48,
+      "gameday_id": 48,
+      "date": "2026-05-05",
+      "home": "DC",
+      "away": "CSK",
+      "venue": "Arun Jaitley Stadium, Delhi",
+      "result": "Chennai Super Kings beat Delhi Capitals by 8 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 49,
+      "gameday_id": 49,
+      "date": "2026-05-06",
+      "home": "SRH",
+      "away": "PBKS",
+      "venue": "Rajiv Gandhi International Stadium, Hyderabad",
+      "result": "Sunrisers Hyderabad beat Punjab Kings by 33 runs",
+      "status": "Completed"
+    },
+    {
+      "match": 50,
+      "gameday_id": 50,
+      "date": "2026-05-07",
+      "home": "LSG",
+      "away": "RCB",
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "result": "Lucknow Super Giants beat Royal Challengers Bengaluru by 9 runs (DLS method)",
+      "status": "Completed"
+    },
+    {
+      "match": 51,
+      "gameday_id": 51,
+      "date": "2026-05-08",
+      "home": "DC",
+      "away": "KKR",
+      "venue": "Arun Jaitley Stadium, Delhi",
+      "result": "Kolkata Knight Riders beat Delhi Capitals by 8 wickets",
+      "status": "Completed"
+    },
+    {
+      "match": 52,
+      "gameday_id": 52,
+      "date": "2026-05-09",
+      "home": "RR",
+      "away": "GT",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "result": null,
+      "status": "Pending"
+    },
+    {
+      "match": 53,
+      "gameday_id": 53,
+      "date": "2026-05-10",
+      "home": "CSK",
+      "away": "LSG",
+      "venue": "MA Chidambaram Stadium, Chennai",
+      "result": null,
+      "status": "Pending"
+    },
+    {
+      "match": 54,
+      "gameday_id": 54,
+      "date": "2026-05-10",
+      "home": "RCB",
+      "away": "MI",
+      "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
+      "result": null,
+      "status": "Pending"
+    },
+    {
+      "match": 55,
+      "gameday_id": 55,
+      "date": "2026-05-11",
+      "home": "PBKS",
+      "away": "DC",
+      "venue": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
+      "result": null,
+      "status": "Pending"
+    },
+    {
+      "match": 56,
+      "gameday_id": 56,
+      "date": "2026-05-12",
+      "home": "GT",
+      "away": "SRH",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "result": null,
+      "status": "Pending"
+    },
+    {
+      "match": 57,
+      "gameday_id": 57,
+      "date": "2026-05-13",
+      "home": "RCB",
+      "away": "KKR",
+      "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
+      "result": null,
+      "status": "Pending"
+    },
+    {
+      "match": 58,
+      "gameday_id": 58,
+      "date": "2026-05-14",
+      "home": "PBKS",
+      "away": "MI",
+      "venue": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
+      "result": null,
+      "status": "Pending"
+    },
+    {
+      "match": 59,
+      "gameday_id": 59,
+      "date": "2026-05-15",
+      "home": "LSG",
+      "away": "CSK",
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "result": null,
+      "status": "Pending"
+    },
+    {
+      "match": 60,
+      "gameday_id": 60,
+      "date": "2026-05-16",
+      "home": "KKR",
+      "away": "GT",
+      "venue": "Eden Gardens, Kolkata",
+      "result": null,
+      "status": "Pending"
+    },
+    {
+      "match": 61,
+      "gameday_id": 61,
+      "date": "2026-05-17",
+      "home": "PBKS",
+      "away": "RCB",
+      "venue": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
+      "result": null,
+      "status": "Pending"
+    },
+    {
+      "match": 62,
+      "gameday_id": 62,
+      "date": "2026-05-17",
+      "home": "DC",
+      "away": "RR",
+      "venue": "Arun Jaitley Stadium, Delhi",
+      "result": null,
+      "status": "Pending"
+    },
+    {
+      "match": 63,
+      "gameday_id": 63,
+      "date": "2026-05-18",
+      "home": "CSK",
+      "away": "SRH",
+      "venue": "MA Chidambaram Stadium, Chennai",
+      "result": null,
+      "status": "Pending"
+    },
+    {
+      "match": 64,
+      "gameday_id": 64,
+      "date": "2026-05-19",
+      "home": "RR",
+      "away": "LSG",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "result": null,
+      "status": "Pending"
+    },
+    {
+      "match": 65,
+      "gameday_id": 65,
+      "date": "2026-05-20",
+      "home": "KKR",
+      "away": "MI",
+      "venue": "Eden Gardens, Kolkata",
+      "result": null,
+      "status": "Pending"
+    },
+    {
+      "match": 66,
+      "gameday_id": 66,
+      "date": "2026-05-21",
+      "home": "GT",
+      "away": "CSK",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "result": null,
+      "status": "Pending"
+    },
+    {
+      "match": 67,
+      "gameday_id": 67,
+      "date": "2026-05-22",
+      "home": "SRH",
+      "away": "RCB",
+      "venue": "Rajiv Gandhi International Stadium, Hyderabad",
+      "result": null,
+      "status": "Pending"
+    },
+    {
+      "match": 68,
+      "gameday_id": 68,
+      "date": "2026-05-23",
+      "home": "LSG",
+      "away": "PBKS",
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "result": null,
+      "status": "Pending"
+    },
+    {
+      "match": 69,
+      "gameday_id": 69,
+      "date": "2026-05-24",
+      "home": "MI",
+      "away": "RR",
+      "venue": "Wankhede Stadium, Mumbai",
+      "result": null,
+      "status": "Pending"
+    },
+    {
+      "match": 70,
+      "gameday_id": 70,
+      "date": "2026-05-24",
+      "home": "KKR",
+      "away": "DC",
+      "venue": "Eden Gardens, Kolkata",
+      "result": null,
+      "status": "Pending"
+    }
+  ]
+}
