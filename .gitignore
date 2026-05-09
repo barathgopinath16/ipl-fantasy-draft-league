@@ -1,4 +1,3 @@
-cat <<EOF > .gitignore
 venv/
 __pycache__/
 *.pyc
@@ -6,4 +5,3 @@ __pycache__/
 api_logs/*.json
 !api_logs/milestone_snapshots/
 api_logs/milestone_snapshots/*.json
-EOF
