@@ -219,7 +219,11 @@ const ScoringEngine = (() => {
    */
   function computeAll(apiPlayers, ownerMap, draft, snapshots) {
     const apiLookup = {};
-    for (const p of apiPlayers) apiLookup[p.Name] = p;
+    for (const p of apiPlayers) {
+      // Find name key dynamically
+      const name = p.Name || p.name || p.PlayerName || p.pname;
+      if (name) apiLookup[name] = p;
+    }
 
     const effectiveMap = applyReplacements(ownerMap, draft);
     const effectiveP2O = buildPlayerToOwner(effectiveMap);
@@ -241,7 +245,8 @@ const ScoringEngine = (() => {
     for (const playerName of allOwned) {
       const apiP = apiLookup[playerName];
       if (!apiP) continue;
-      const currentPts = apiP.OverallPoints || 0;
+      // Find points key dynamically
+      const currentPts = apiP.OverallPoints ?? apiP.points ?? apiP.total_points ?? apiP.Score ?? 0;
       const splits = computeMilestoneAdjustedPoints(playerName, currentPts, ownerMap, draft, snapshots);
       for (const s of splits) {
         if (s.owner in ownerTotals) ownerTotals[s.owner] += s.points;
@@ -276,7 +281,7 @@ const ScoringEngine = (() => {
       const allRoster = [...activePlayers, ...droppedPlayers];
       const players = allRoster.map(pName => {
         const apiP = apiLookup[pName] || {};
-        const currentPts = apiP.OverallPoints || 0;
+        const currentPts = apiP.OverallPoints ?? apiP.points ?? apiP.total_points ?? apiP.Score ?? 0;
         const splits = computeMilestoneAdjustedPoints(pName, currentPts, ownerMap, draft, snapshots);
         const ownerSplits = splits.filter(s => s.owner === owner);
         const ownerPts = ownerSplits.reduce((a, s) => a + s.points, 0);
@@ -307,8 +312,8 @@ const ScoringEngine = (() => {
 
     // ── All players ──
     const allPlayersList = apiPlayers.map(p => {
-      const name = p.Name;
-      const currentPts = p.OverallPoints || 0;
+      const name = p.Name || p.name || p.PlayerName || p.pname;
+      const currentPts = p.OverallPoints ?? p.points ?? p.total_points ?? p.Score ?? 0;
       const currentOwner = effectiveP2O[name] || null;
       const origOwner = originalP2O[name] || null;
 
