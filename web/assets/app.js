@@ -107,7 +107,7 @@ async function refreshData() {
     }
   } catch (e) {
     console.error('Refresh failed:', e);
-    toast('⚠️ Using cached data', 'error');
+    toast(`⚠️ ${e.message || 'Connection failed'} - using cache`, 'error');
   } finally {
     if (btn) { 
       btn.disabled = false; 
@@ -350,19 +350,21 @@ window.Bridge = {
       const data = await r.json();
       
       // Also fetch fixtures to see if matches are completed
+      const r = await fetch('/api/proxy?endpoint=mixapi');
+      if (!r.ok) throw new Error(`Status ${r.status}`);
+      const data = await r.json();
+      
       const fr = await fetch('/api/proxy?endpoint=fixtures');
+      if (!fr.ok) throw new Error(`Fixtures Status ${fr.status}`);
       const fData = await fr.json();
       
       return { 
         ok: true, 
         message: 'Live data loaded successfully', 
-        data: { 
-          players: data.players || [], 
-          fixtures: fData.fixtures || [] 
-        } 
+        data: { players: data.players || [], fixtures: fData.fixtures || [] } 
       };
     } catch (e) {
-      return { ok: false, message: 'Live API unavailable' };
+      return { ok: false, message: e.message || 'Live API unavailable' };
     }
   }
 };
