@@ -68,6 +68,8 @@ async function refreshData() {
     const res = await Bridge.fetchLive();
     if (res.ok && res.data && res.data.players.length > 0) {
       const livePlayers = res.data.players;
+      console.log('DEBUG: First player from API:', livePlayers[0]);
+      console.log('DEBUG: Owner Map Sample:', Object.values(DATA.replacement_config.owner_map)[0].slice(0, 3));
       
       // Calculate new leaderboard
       if (DATA.replacement_config && typeof ScoringEngine !== 'undefined') {
