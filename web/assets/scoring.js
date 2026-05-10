@@ -219,15 +219,33 @@ const ScoringEngine = (() => {
    */
   function computeAll(apiPlayers, ownerMap, draft, snapshots) {
     const apiLookup = {};
+    const normalize = (n) => n ? n.toLowerCase().replace(/[^a-z0-9]/g, '') : '';
+    
     for (const p of apiPlayers) {
-      // Find name key dynamically
       const name = p.Name || p.name || p.PlayerName || p.pname;
-      if (name) apiLookup[name] = p;
+      if (name) {
+        apiLookup[normalize(name)] = p;
+        // Also map common variations
+        const parts = name.split(' ');
+        if (parts.length > 1) {
+          apiLookup[normalize(parts[parts.length-1])] = p; // Last name match
+        }
+      }
     }
 
     const effectiveMap = applyReplacements(ownerMap, draft);
     const effectiveP2O = buildPlayerToOwner(effectiveMap);
     const originalP2O = buildPlayerToOwner(ownerMap);
+
+    const findApiP = (name) => {
+      const norm = normalize(name);
+      if (apiLookup[norm]) return apiLookup[norm];
+      // Try partial match if direct fail
+      for (const k in apiLookup) {
+        if (k.includes(norm) || norm.includes(k)) return apiLookup[k];
+      }
+      return null;
+    };
 
     // Collect ALL players involved (original + picked)
     const allOwned = new Set();
@@ -243,7 +261,7 @@ const ScoringEngine = (() => {
     for (const owner of Object.keys(ownerMap)) ownerTotals[owner] = 0;
 
     for (const playerName of allOwned) {
-      const apiP = apiLookup[playerName];
+      const apiP = findApiP(playerName);
       if (!apiP) continue;
       // Find points key dynamically
       const currentPts = apiP.OverallPoints ?? apiP.points ?? apiP.total_points ?? apiP.Score ?? 0;
@@ -280,7 +298,7 @@ const ScoringEngine = (() => {
 
       const allRoster = [...activePlayers, ...droppedPlayers];
       const players = allRoster.map(pName => {
-        const apiP = apiLookup[pName] || {};
+        const apiP = findApiP(pName) || {};
         const currentPts = apiP.OverallPoints ?? apiP.points ?? apiP.total_points ?? apiP.Score ?? 0;
         const splits = computeMilestoneAdjustedPoints(pName, currentPts, ownerMap, draft, snapshots);
         const ownerSplits = splits.filter(s => s.owner === owner);
