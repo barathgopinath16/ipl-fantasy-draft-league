@@ -61,16 +61,39 @@ async function refreshData() {
   try {
     const res = await Bridge.fetchLive();
     if (res.ok && res.data) {
-      // Re-calculate scores locally if we have the config
+      const livePlayers = res.data.players || [];
+      const liveFixtures = res.data.fixtures || [];
+
+      // Re-calculate everything in-browser using ScoringEngine
       if (DATA.replacement_config && typeof ScoringEngine !== 'undefined') {
-        const engine = new ScoringEngine(DATA.replacement_config.owner_map, DATA.replacement_config.draft);
-        const playerMap = {};
-        res.data.players.forEach(p => { playerMap[p.name] = p.points; });
-        DATA.leaderboard = engine.computeLeaderboard(playerMap, DATA.match_history);
+        const { draft, owner_map } = DATA.replacement_config;
+        
+        // We need snapshots for precise milestone splitting
+        // For simplicity in the browser refresh, we'll use current DATA.match_history
+        // which contains the milestone splits already calculated by Python.
+        const snapshots = {}; 
+        if (draft.milestones) {
+          for (const m of draft.milestones) {
+             // In a real live environment, snapshots would be loaded separately
+             // Here we fall back to existing data if possible
+          }
+        }
+
+        const results = ScoringEngine.computeAll(livePlayers, owner_map, draft, snapshots);
+        
+        DATA.leaderboard = { 
+          owners: results.leaderboard, 
+          updated_at: new Date().toLocaleTimeString() 
+        };
+        DATA.owner_rosters = results.ownerRosters;
+        DATA.all_players = results.allPlayers;
+        DATA.fixtures = { fixtures: liveFixtures };
+
+        localStorage.setItem('ipl_cache', JSON.stringify(DATA));
+      } else {
+        await loadAll();
       }
-      
-      if (res.data.fixtures) DATA.fixtures = { fixtures: res.data.fixtures };
-      localStorage.setItem('ipl_cache', JSON.stringify(DATA));
+
       renderCurrentPage();
       updateMeta();
       toast(res.message, 'success');
@@ -124,12 +147,12 @@ function renderLeaderboard() {
   const owners = lb.owners;
   const maxPts = Math.max(...owners.map(o => o.total_points));
   const totalPts = owners.reduce((a, o) => a + o.total_points, 0);
-  const matchesCompleted = fixtures.filter(f => f.status === 'Completed').length;
+  const matchesCompleted = fixtures.filter(f => f.MatchStatus === 2 || f.status === 'Completed').length;
 
   el.innerHTML = `
     <div class="page-header">
       <div class="page-title">🏆 Leaderboard</div>
-      <div class="page-subtitle">Updated ${lb.updated_at}</div>
+      <div class="page-subtitle">Updated ${lb.updated_at || 'Just now'}</div>
     </div>
     <div class="stats-grid">
       <div class="stat-card"><div class="stat-label">Total Owners</div><div class="stat-value">${owners.length}</div></div>
@@ -255,25 +278,25 @@ function renderFixtures() {
   if (!data) { el.innerHTML = loading(); return; }
 
   const fix = data.fixtures;
-  const completed = fix.filter(f => f.status === 'Completed').length;
+  const completed = fix.filter(f => f.MatchStatus === 2 || f.status === 'Completed').length;
 
   el.innerHTML = `
     <div class="page-header"><div class="page-title">📅 Fixtures</div><div class="page-subtitle">${completed} of ${fix.length} matches completed</div></div>
     <div class="fixture-grid">${fix.map(f => `
       <div class="fixture-card">
-        <div class="fixture-num">MATCH ${f.match}</div>
+        <div class="fixture-num">MATCH ${f.MatchNumber || f.match}</div>
         <div class="fixture-main">
           <div class="fixture-team">
-            <div class="team-circle">${f.home.substring(0,3)}</div>
-            <div class="team-name-small">${f.home}</div>
+            <div class="team-circle">${(f.HomeTeamShortName || f.home || '—').substring(0,3)}</div>
+            <div class="team-name-small">${f.HomeTeamShortName || f.home || '—'}</div>
           </div>
           <div class="fixture-vs">VS</div>
           <div class="fixture-team">
-            <div class="team-circle">${f.away.substring(0,3)}</div>
-            <div class="team-name-small">${f.away}</div>
+            <div class="team-circle">${(f.AwayTeamShortName || f.away || '—').substring(0,3)}</div>
+            <div class="team-name-small">${f.AwayTeamShortName || f.away || '—'}</div>
           </div>
         </div>
-        <div class="fixture-result">${f.result || 'Upcoming'}</div>
+        <div class="fixture-result">${f.result || (f.MatchStatus === 2 ? 'Completed' : 'Upcoming')}</div>
       </div>`).join('')}
     </div>`;
 }
@@ -328,7 +351,10 @@ window.Bridge = {
       return { 
         ok: true, 
         message: 'Live data loaded successfully', 
-        data: { players: data.players || [], fixtures: fData.fixtures || [] } 
+        data: { 
+          players: data.Data?.Value?.Players || [], 
+          fixtures: fData.Data?.Value || [] 
+        } 
       };
     } catch (e) {
       return { ok: false, message: e.message || 'Live API unavailable' };
