@@ -19,27 +19,21 @@ let playerSearch = '';
   try {
     await loadAll();
     
-    // Load cache if available
     const cache = localStorage.getItem('ipl_cache');
     if (cache) {
-      const parsed = JSON.parse(cache);
-      Object.assign(DATA, parsed);
+      try {
+        const parsed = JSON.parse(cache);
+        Object.assign(DATA, parsed);
+      } catch(e) {}
     }
     
     updateMeta();
     renderCurrentPage();
-
-    // Trigger live refresh automatically on load
     refreshData();
   } catch(e) {
     console.error('Init failed:', e);
-    document.getElementById('page-leaderboard').innerHTML = `
-      <div class="loading">
-        <div style="font-size:40px;margin-bottom:16px">⚠️</div>
-        <div style="color:var(--red);font-weight:600">Failed to initialize</div>
-        <button class="btn btn-primary" style="margin-top:16px" onclick="location.reload()">↺ Retry</button>
-      </div>`;
-    document.getElementById('page-leaderboard').classList.add('active');
+    const lb = document.getElementById('page-leaderboard');
+    if (lb) lb.innerHTML = `<div class="loading">⚠️ Failed to load data. Please refresh.</div>`;
   }
 })();
 
@@ -62,48 +56,26 @@ async function loadAll() {
 
 async function refreshData() {
   const btn = document.getElementById('refresh-btn');
-  const icon = document.getElementById('refresh-icon');
   if (btn) { btn.disabled = true; btn.innerHTML = '⏳ Fetching...'; }
 
   try {
     const res = await Bridge.fetchLive();
-    if (res.ok) {
-      // If we got live data, re-run the scoring engine in the browser
-      if (res.data) {
+    if (res.ok && res.data) {
+      // Re-calculate scores locally if we have the config
+      if (DATA.replacement_config && typeof ScoringEngine !== 'undefined') {
         const engine = new ScoringEngine(DATA.replacement_config.owner_map, DATA.replacement_config.draft);
-        
-        // Update player points from live data
-        const livePlayers = res.data.players || [];
         const playerMap = {};
-        livePlayers.forEach(p => { playerMap[p.name] = p.points; });
-
-        // Re-calculate everything
-        const newLB = engine.computeLeaderboard(playerMap, DATA.match_history);
-        DATA.leaderboard = newLB;
-        
-        // Update all_players data with live points
-        if (DATA.all_players) {
-          DATA.all_players.players.forEach(p => {
-            if (playerMap[p.name] !== undefined) p.total_points = playerMap[p.name];
-          });
-        }
-
-        // Update fixtures if provided
-        if (res.data.fixtures) {
-          DATA.fixtures = { fixtures: res.data.fixtures };
-        }
-
-        localStorage.setItem('ipl_cache', JSON.stringify(DATA));
-      } else {
-        // Fallback to static reload if no data returned (desktop mode)
-        await loadAll();
+        res.data.players.forEach(p => { playerMap[p.name] = p.points; });
+        DATA.leaderboard = engine.computeLeaderboard(playerMap, DATA.match_history);
       }
-
+      
+      if (res.data.fixtures) DATA.fixtures = { fixtures: res.data.fixtures };
+      localStorage.setItem('ipl_cache', JSON.stringify(DATA));
       renderCurrentPage();
       updateMeta();
       toast(res.message, 'success');
     } else {
-      throw new Error(res.message);
+      throw new Error(res.message || 'API Error');
     }
   } catch (e) {
     console.error('Refresh failed:', e);
@@ -131,7 +103,8 @@ document.querySelectorAll('.nav-item').forEach(el => {
     el.classList.add('active');
     document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
     currentPage = el.dataset.page;
-    document.getElementById(`page-${currentPage}`).classList.add('active');
+    const pageEl = document.getElementById(`page-${currentPage}`);
+    if (pageEl) pageEl.classList.add('active');
     renderCurrentPage();
   });
 });
@@ -192,7 +165,6 @@ function renderRosters() {
 
   const r = rosters[currentOwner];
   const active = r.players.filter(p => p.status !== 'dropped');
-  const dropped = r.players.filter(p => p.status === 'dropped');
 
   el.innerHTML = `
     <div class="page-header"><div class="page-title">👤 Owner Rosters</div></div>
@@ -344,12 +316,7 @@ window.Bridge = {
   fetchLive: async () => {
     if (window.Bridge.isDesktop()) return await window.pywebview.api.fetch_live();
     
-    // Web Proxy Fetch
     try {
-      const r = await fetch('/api/proxy?endpoint=mixapi');
-      const data = await r.json();
-      
-      // Also fetch fixtures to see if matches are completed
       const r = await fetch('/api/proxy?endpoint=mixapi');
       if (!r.ok) throw new Error(`Status ${r.status}`);
       const data = await r.json();
