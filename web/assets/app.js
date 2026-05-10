@@ -19,21 +19,27 @@ let playerSearch = '';
   try {
     await loadAll();
     
+    // Try to restore from cache, but only if it has data
     const cache = localStorage.getItem('ipl_cache');
     if (cache) {
       try {
         const parsed = JSON.parse(cache);
-        Object.assign(DATA, parsed);
-      } catch(e) {}
+        // Only use cache if it has a leaderboard with points
+        if (parsed.leaderboard?.owners?.[0]?.total_points > 0) {
+          Object.assign(DATA, parsed);
+        }
+      } catch(e) { console.error('Cache load failed:', e); }
     }
     
     updateMeta();
     renderCurrentPage();
-    refreshData();
+    
+    // Trigger live refresh automatically
+    setTimeout(refreshData, 1000);
   } catch(e) {
     console.error('Init failed:', e);
     const lb = document.getElementById('page-leaderboard');
-    if (lb) lb.innerHTML = `<div class="loading">⚠️ Failed to load data. Please refresh.</div>`;
+    if (lb) lb.innerHTML = `<div class="loading">⚠️ Error loading site data. Please refresh.</div>`;
   }
 })();
 
@@ -60,49 +66,42 @@ async function refreshData() {
 
   try {
     const res = await Bridge.fetchLive();
-    if (res.ok && res.data) {
-      const livePlayers = res.data.players || [];
-      const liveFixtures = res.data.fixtures || [];
-
-      // Re-calculate everything in-browser using ScoringEngine
+    if (res.ok && res.data && res.data.players.length > 0) {
+      const livePlayers = res.data.players;
+      
+      // Calculate new leaderboard
       if (DATA.replacement_config && typeof ScoringEngine !== 'undefined') {
         const { draft, owner_map } = DATA.replacement_config;
         
-        // We need snapshots for precise milestone splitting
-        // For simplicity in the browser refresh, we'll use current DATA.match_history
-        // which contains the milestone splits already calculated by Python.
+        // Use current DATA as fallback for snapshots during live refresh
         const snapshots = {}; 
-        if (draft.milestones) {
-          for (const m of draft.milestones) {
-             // In a real live environment, snapshots would be loaded separately
-             // Here we fall back to existing data if possible
-          }
-        }
 
         const results = ScoringEngine.computeAll(livePlayers, owner_map, draft, snapshots);
         
+        // VALIDATION: If total points is 0 for the leader, something went wrong. DO NOT OVERWRITE.
+        if (results.leaderboard?.[0]?.total_points === 0) {
+          throw new Error('Live data mapping failed (0 pts)');
+        }
+
         DATA.leaderboard = { 
           owners: results.leaderboard, 
           updated_at: new Date().toLocaleTimeString() 
         };
         DATA.owner_rosters = results.ownerRosters;
         DATA.all_players = results.allPlayers;
-        DATA.fixtures = { fixtures: liveFixtures };
+        if (res.data.fixtures) DATA.fixtures = { fixtures: res.data.fixtures };
 
         localStorage.setItem('ipl_cache', JSON.stringify(DATA));
-      } else {
-        await loadAll();
+        renderCurrentPage();
+        updateMeta();
+        toast(res.message, 'success');
       }
-
-      renderCurrentPage();
-      updateMeta();
-      toast(res.message, 'success');
     } else {
-      throw new Error(res.message || 'API Error');
+      throw new Error(res.message || 'No live data received');
     }
   } catch (e) {
     console.error('Refresh failed:', e);
-    toast(`⚠️ ${e.message || 'Connection failed'} - using cache`, 'error');
+    toast(`⚠️ ${e.message || 'API Error'} - using baseline data`, 'error');
   } finally {
     if (btn) { 
       btn.disabled = false; 
@@ -145,7 +144,7 @@ function renderLeaderboard() {
   if (!lb) { el.innerHTML = loading(); return; }
 
   const owners = lb.owners;
-  const maxPts = Math.max(...owners.map(o => o.total_points));
+  const maxPts = Math.max(...owners.map(o => o.total_points), 1);
   const totalPts = owners.reduce((a, o) => a + o.total_points, 0);
   const matchesCompleted = fixtures.filter(f => f.MatchStatus === 2 || f.status === 'Completed').length;
 
@@ -341,23 +340,28 @@ window.Bridge = {
     
     try {
       const r = await fetch('/api/proxy?endpoint=mixapi');
-      if (!r.ok) throw new Error(`Status ${r.status}`);
       const data = await r.json();
       
+      // Handle both flat and nested responses
+      let players = [];
+      if (data.Data?.Value?.Players) players = data.Data.Value.Players;
+      else if (data.players) players = data.players;
+      else if (Array.isArray(data)) players = data;
+
       const fr = await fetch('/api/proxy?endpoint=fixtures');
-      if (!fr.ok) throw new Error(`Fixtures Status ${fr.status}`);
       const fData = await fr.json();
+      let fixtures = [];
+      if (fData.Data?.Value) fixtures = fData.Data.Value;
+      else if (fData.fixtures) fixtures = fData.fixtures;
+      else if (Array.isArray(fData)) fixtures = fData;
       
       return { 
         ok: true, 
-        message: 'Live data loaded successfully', 
-        data: { 
-          players: data.Data?.Value?.Players || [], 
-          fixtures: fData.Data?.Value || [] 
-        } 
+        message: 'Live data loaded', 
+        data: { players, fixtures } 
       };
     } catch (e) {
-      return { ok: false, message: e.message || 'Live API unavailable' };
+      return { ok: false, message: 'API Unavailable' };
     }
   }
 };
