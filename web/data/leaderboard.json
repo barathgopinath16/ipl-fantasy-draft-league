@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-05-11 23:36:58",
+  "updated_at": "2026-05-12 00:01:38",
   "owners": [
     {
       "rank": 1,
       "owner": "Venky",
-      "total_points": 7745.0,
-      "last_update_points": 0,
+      "total_points": 7857.0,
+      "last_update_points": 112,
       "player_count": 20
     },
     {
       "rank": 2,
       "owner": "Barath",
-      "total_points": 7187.0,
-      "last_update_points": 0,
+      "total_points": 7348.0,
+      "last_update_points": 161,
       "player_count": 20
     },
     {
       "rank": 3,
       "owner": "Kaushik",
-      "total_points": 7167.0,
-      "last_update_points": 0,
+      "total_points": 7263.0,
+      "last_update_points": 96,
       "player_count": 20
     },
     {
       "rank": 4,
       "owner": "Sid",
-      "total_points": 6346.0,
-      "last_update_points": 0,
+      "total_points": 6458.0,
+      "last_update_points": 112,
       "player_count": 20
     },
     {
       "rank": 5,
       "owner": "Aravinth",
-      "total_points": 6185.0,
-      "last_update_points": 0,
+      "total_points": 6218.0,
+      "last_update_points": 33,
       "player_count": 20
     },
     {
       "rank": 6,
       "owner": "Vignesh",
-      "total_points": 5175.0,
-      "last_update_points": 0,
+      "total_points": 5328.0,
+      "last_update_points": 153,
       "player_count": 20
     },
     {
       "rank": 7,
       "owner": "JR",
-      "total_points": 4835.0,
-      "last_update_points": 0,
+      "total_points": 4893.0,
+      "last_update_points": 58,
       "player_count": 20
     }
   ]

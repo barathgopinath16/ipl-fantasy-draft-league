@@ -1,7 +1,7 @@
 {
   "Kaushik": {
     "active_count": 20,
-    "total_points": 7167.0,
+    "total_points": 7263.0,
     "players": [
       {
         "name": "Heinrich Klaasen",
@@ -108,8 +108,8 @@
         "team": "PBKS",
         "role": "BATSMAN",
         "credits": 9.0,
-        "total_api_points": 212.0,
-        "owner_points": 212.0,
+        "total_api_points": 214.0,
+        "owner_points": 214.0,
         "status": "original",
         "phase": "M1-M25"
       },
@@ -152,6 +152,16 @@
         "owner_points": 164.0,
         "status": "original",
         "phase": "M1-M25"
+      },
+      {
+        "name": "Axar Patel",
+        "team": "DC",
+        "role": "ALL ROUNDER",
+        "credits": 9.5,
+        "total_api_points": 465.0,
+        "owner_points": 140.0,
+        "status": "replacement",
+        "phase": "M51+"
       },
       {
         "name": "Vijaykumar Vyshak",
@@ -204,16 +214,6 @@
         "phase": "M1-M25"
       },
       {
-        "name": "Axar Patel",
-        "team": "DC",
-        "role": "ALL ROUNDER",
-        "credits": 9.5,
-        "total_api_points": 371.0,
-        "owner_points": 46.0,
-        "status": "replacement",
-        "phase": "M51+"
-      },
-      {
         "name": "Rahul Chahar",
         "team": "CSK",
         "role": "BOWLER",
@@ -247,15 +247,25 @@
   },
   "Vignesh": {
     "active_count": 20,
-    "total_points": 5175.0,
+    "total_points": 5328.0,
     "players": [
       {
         "name": "KL Rahul",
         "team": "DC",
         "role": "WICKET KEEPER",
         "credits": 10.0,
-        "total_api_points": 720.0,
-        "owner_points": 720.0,
+        "total_api_points": 735.0,
+        "owner_points": 735.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Shreyas Iyer",
+        "team": "PBKS",
+        "role": "BATSMAN",
+        "credits": 10.5,
+        "total_api_points": 637.0,
+        "owner_points": 637.0,
         "status": "original",
         "phase": "M1-M25"
       },
@@ -266,16 +276,6 @@
         "credits": 9.0,
         "total_api_points": 577.0,
         "owner_points": 577.0,
-        "status": "original",
-        "phase": "M1-M25"
-      },
-      {
-        "name": "Shreyas Iyer",
-        "team": "PBKS",
-        "role": "BATSMAN",
-        "credits": 10.5,
-        "total_api_points": 551.0,
-        "owner_points": 551.0,
         "status": "original",
         "phase": "M1-M25"
       },
@@ -320,22 +320,22 @@
         "phase": "M1-M25"
       },
       {
+        "name": "Yuzvendra Chahal",
+        "team": "PBKS",
+        "role": "BOWLER",
+        "credits": 9.5,
+        "total_api_points": 260.0,
+        "owner_points": 260.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
         "name": "Jitesh Sharma",
         "team": "RCB",
         "role": "WICKET KEEPER",
         "credits": 9.0,
         "total_api_points": 254.0,
         "owner_points": 254.0,
-        "status": "original",
-        "phase": "M1-M25"
-      },
-      {
-        "name": "Yuzvendra Chahal",
-        "team": "PBKS",
-        "role": "BOWLER",
-        "credits": 9.5,
-        "total_api_points": 248.0,
-        "owner_points": 248.0,
         "status": "original",
         "phase": "M1-M25"
       },
@@ -350,6 +350,16 @@
         "phase": "M1-M25"
       },
       {
+        "name": "Ashutosh Sharma",
+        "team": "DC",
+        "role": "BATSMAN",
+        "credits": 9.0,
+        "total_api_points": 229.0,
+        "owner_points": 229.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
         "name": "Akeal Hosein",
         "team": "CSK",
         "role": "BOWLER",
@@ -358,16 +368,6 @@
         "owner_points": 212.0,
         "status": "replacement",
         "phase": "M26-M50"
-      },
-      {
-        "name": "Ashutosh Sharma",
-        "team": "DC",
-        "role": "BATSMAN",
-        "credits": 9.0,
-        "total_api_points": 189.0,
-        "owner_points": 189.0,
-        "status": "original",
-        "phase": "M1-M25"
       },
       {
         "name": "Shimron Hetmyer",
@@ -493,7 +493,7 @@
   },
   "Aravinth": {
     "active_count": 20,
-    "total_points": 6185.0,
+    "total_points": 6218.0,
     "players": [
       {
         "name": "Ishan Kishan",
@@ -510,8 +510,8 @@
         "team": "PBKS",
         "role": "WICKET KEEPER",
         "credits": 9.0,
-        "total_api_points": 585.0,
-        "owner_points": 585.0,
+        "total_api_points": 618.0,
+        "owner_points": 618.0,
         "status": "original",
         "phase": "M1-M25"
       },
@@ -719,7 +719,7 @@
   },
   "Sid": {
     "active_count": 20,
-    "total_points": 6346.0,
+    "total_points": 6458.0,
     "players": [
       {
         "name": "Jos Buttler",
@@ -802,22 +802,22 @@
         "phase": "M1-M25"
       },
       {
+        "name": "Marcus Stoinis",
+        "team": "PBKS",
+        "role": "ALL ROUNDER",
+        "credits": 9.0,
+        "total_api_points": 349.0,
+        "owner_points": 349.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
         "name": "Mohammad Shami",
         "team": "LSG",
         "role": "BOWLER",
         "credits": 8.5,
         "total_api_points": 326.0,
         "owner_points": 326.0,
-        "status": "original",
-        "phase": "M1-M25"
-      },
-      {
-        "name": "Marcus Stoinis",
-        "team": "PBKS",
-        "role": "ALL ROUNDER",
-        "credits": 9.0,
-        "total_api_points": 325.0,
-        "owner_points": 325.0,
         "status": "original",
         "phase": "M1-M25"
       },
@@ -832,22 +832,22 @@
         "phase": "M1-M25"
       },
       {
+        "name": "David Miller",
+        "team": "DC",
+        "role": "BATSMAN",
+        "credits": 9.0,
+        "total_api_points": 305.0,
+        "owner_points": 305.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
         "name": "Sarfaraz Khan",
         "team": "CSK",
         "role": "BATSMAN",
         "credits": 7.0,
         "total_api_points": 292.0,
         "owner_points": 292.0,
-        "status": "original",
-        "phase": "M1-M25"
-      },
-      {
-        "name": "David Miller",
-        "team": "DC",
-        "role": "BATSMAN",
-        "credits": 9.0,
-        "total_api_points": 217.0,
-        "owner_points": 217.0,
         "status": "original",
         "phase": "M1-M25"
       },
@@ -925,7 +925,7 @@
   },
   "Barath": {
     "active_count": 20,
-    "total_points": 7187.0,
+    "total_points": 7348.0,
     "players": [
       {
         "name": "Sanju Samson",
@@ -954,6 +954,16 @@
         "credits": 9.0,
         "total_api_points": 595.0,
         "owner_points": 595.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Priyansh Arya",
+        "team": "PBKS",
+        "role": "BATSMAN",
+        "credits": 9.5,
+        "total_api_points": 535.0,
+        "owner_points": 535.0,
         "status": "original",
         "phase": "M1-M25"
       },
@@ -988,14 +998,14 @@
         "phase": "M1-M25"
       },
       {
-        "name": "Priyansh Arya",
+        "name": "Cooper Connolly",
         "team": "PBKS",
-        "role": "BATSMAN",
-        "credits": 9.5,
-        "total_api_points": 449.0,
-        "owner_points": 449.0,
-        "status": "original",
-        "phase": "M1-M25"
+        "role": "ALL ROUNDER",
+        "credits": 7.5,
+        "total_api_points": 671.0,
+        "owner_points": 450.0,
+        "status": "replacement",
+        "phase": "M26-M50"
       },
       {
         "name": "Washington Sundar",
@@ -1038,22 +1048,12 @@
         "phase": "M1-M25"
       },
       {
-        "name": "Cooper Connolly",
-        "team": "PBKS",
-        "role": "ALL ROUNDER",
-        "credits": 7.5,
-        "total_api_points": 604.0,
-        "owner_points": 383.0,
-        "status": "replacement",
-        "phase": "M26-M50"
-      },
-      {
         "name": "Marco Jansen",
         "team": "PBKS",
         "role": "ALL ROUNDER",
         "credits": 9.5,
-        "total_api_points": 284.0,
-        "owner_points": 284.0,
+        "total_api_points": 292.0,
+        "owner_points": 292.0,
         "status": "original",
         "phase": "M1-M25"
       },
@@ -1142,7 +1142,7 @@
         "team": "DC",
         "role": "ALL ROUNDER",
         "credits": 7.5,
-        "total_api_points": 5.0,
+        "total_api_points": 30.0,
         "owner_points": 5.0,
         "status": "dropped",
         "phase": "M1-M25"
@@ -1171,7 +1171,7 @@
   },
   "JR": {
     "active_count": 20,
-    "total_points": 4835.0,
+    "total_points": 4893.0,
     "players": [
       {
         "name": "Shubman Gill",
@@ -1228,7 +1228,7 @@
         "team": "DC",
         "role": "ALL ROUNDER",
         "credits": 9.5,
-        "total_api_points": 371.0,
+        "total_api_points": 465.0,
         "owner_points": 325.0,
         "status": "dropped",
         "phase": "M1-M25"
@@ -1304,6 +1304,16 @@
         "phase": "M1-M25"
       },
       {
+        "name": "Mitchell Starc",
+        "team": "DC",
+        "role": "BOWLER",
+        "credits": 10.0,
+        "total_api_points": 155.0,
+        "owner_points": 155.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
         "name": "Nehal Wadhera",
         "team": "PBKS",
         "role": "BATSMAN",
@@ -1334,16 +1344,6 @@
         "phase": "M51+"
       },
       {
-        "name": "Mitchell Starc",
-        "team": "DC",
-        "role": "BOWLER",
-        "credits": 10.0,
-        "total_api_points": 107.0,
-        "owner_points": 107.0,
-        "status": "original",
-        "phase": "M1-M25"
-      },
-      {
         "name": "Khaleel Ahmed",
         "team": "CSK",
         "role": "BOWLER",
@@ -1358,8 +1358,8 @@
         "team": "DC",
         "role": "WICKET KEEPER",
         "credits": 8.5,
-        "total_api_points": 41.0,
-        "owner_points": 41.0,
+        "total_api_points": 51.0,
+        "owner_points": 51.0,
         "status": "original",
         "phase": "M1-M25"
       },
@@ -1417,7 +1417,7 @@
   },
   "Venky": {
     "active_count": 20,
-    "total_points": 7745.0,
+    "total_points": 7857.0,
     "players": [
       {
         "name": "Abhishek Sharma",
@@ -1474,8 +1474,8 @@
         "team": "DC",
         "role": "BATSMAN",
         "credits": 9.0,
-        "total_api_points": 414.0,
-        "owner_points": 414.0,
+        "total_api_points": 431.0,
+        "owner_points": 431.0,
         "status": "original",
         "phase": "M1-M25"
       },
@@ -1486,6 +1486,16 @@
         "credits": 7.0,
         "total_api_points": 413.0,
         "owner_points": 413.0,
+        "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Arshdeep Singh",
+        "team": "PBKS",
+        "role": "BOWLER",
+        "credits": 10.0,
+        "total_api_points": 390.0,
+        "owner_points": 390.0,
         "status": "original",
         "phase": "M1-M25"
       },
@@ -1536,16 +1546,6 @@
         "credits": 9.0,
         "total_api_points": 334.0,
         "owner_points": 334.0,
-        "status": "original",
-        "phase": "M1-M25"
-      },
-      {
-        "name": "Arshdeep Singh",
-        "team": "PBKS",
-        "role": "BOWLER",
-        "credits": 10.0,
-        "total_api_points": 332.0,
-        "owner_points": 332.0,
         "status": "original",
         "phase": "M1-M25"
       },
@@ -1630,6 +1630,16 @@
         "phase": "M1-M25"
       },
       {
+        "name": "Suryansh Shedge",
+        "team": "PBKS",
+        "role": "ALL ROUNDER",
+        "credits": 7.5,
+        "total_api_points": 192.0,
+        "owner_points": 37.0,
+        "status": "replacement",
+        "phase": "M51+"
+      },
+      {
         "name": "Shahbaz Ahmed",
         "team": "LSG",
         "role": "ALL ROUNDER",
@@ -1645,16 +1655,6 @@
         "role": "BOWLER",
         "credits": 9.5,
         "total_api_points": 150.0,
-        "owner_points": 0.0,
-        "status": "replacement",
-        "phase": "M51+"
-      },
-      {
-        "name": "Suryansh Shedge",
-        "team": "PBKS",
-        "role": "ALL ROUNDER",
-        "credits": 7.5,
-        "total_api_points": 155.0,
         "owner_points": 0.0,
         "status": "replacement",
         "phase": "M51+"

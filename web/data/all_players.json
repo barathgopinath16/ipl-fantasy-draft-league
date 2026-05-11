@@ -24,6 +24,17 @@
       "ownership_status": "original"
     },
     {
+      "name": "KL Rahul",
+      "team": "DC",
+      "role": "WICKET KEEPER",
+      "credits": 10.0,
+      "total_points": 735.0,
+      "owner": "Vignesh",
+      "original_owner": "Vignesh",
+      "owner_points": 735.0,
+      "ownership_status": "original"
+    },
+    {
       "name": "Shubman Gill",
       "team": "GT",
       "role": "BATSMAN",
@@ -32,17 +43,6 @@
       "owner": "JR",
       "original_owner": "JR",
       "owner_points": 734.0,
-      "ownership_status": "original"
-    },
-    {
-      "name": "KL Rahul",
-      "team": "DC",
-      "role": "WICKET KEEPER",
-      "credits": 10.0,
-      "total_points": 720.0,
-      "owner": "Vignesh",
-      "original_owner": "Vignesh",
-      "owner_points": 720.0,
       "ownership_status": "original"
     },
     {
@@ -112,6 +112,28 @@
       "ownership_status": "original"
     },
     {
+      "name": "Cooper Connolly",
+      "team": "PBKS",
+      "role": "ALL ROUNDER",
+      "credits": 7.5,
+      "total_points": 671.0,
+      "owner": "Barath",
+      "original_owner": null,
+      "owner_points": 450.0,
+      "ownership_status": "replacement"
+    },
+    {
+      "name": "Shreyas Iyer",
+      "team": "PBKS",
+      "role": "BATSMAN",
+      "credits": 10.5,
+      "total_points": 637.0,
+      "owner": "Vignesh",
+      "original_owner": "Vignesh",
+      "owner_points": 637.0,
+      "ownership_status": "original"
+    },
+    {
       "name": "Ryan Rickelton",
       "team": "MI",
       "role": "WICKET KEEPER",
@@ -131,6 +153,17 @@
       "owner": "Venky",
       "original_owner": "Venky",
       "owner_points": 626.0,
+      "ownership_status": "original"
+    },
+    {
+      "name": "Prabhsimran Singh",
+      "team": "PBKS",
+      "role": "WICKET KEEPER",
+      "credits": 9.0,
+      "total_points": 618.0,
+      "owner": "Aravinth",
+      "original_owner": "Aravinth",
+      "owner_points": 618.0,
       "ownership_status": "original"
     },
     {
@@ -167,17 +200,6 @@
       "ownership_status": "original"
     },
     {
-      "name": "Cooper Connolly",
-      "team": "PBKS",
-      "role": "ALL ROUNDER",
-      "credits": 7.5,
-      "total_points": 604.0,
-      "owner": "Barath",
-      "original_owner": null,
-      "owner_points": 383.0,
-      "ownership_status": "replacement"
-    },
-    {
       "name": "Devdutt Padikkal",
       "team": "RCB",
       "role": "BATSMAN",
@@ -197,17 +219,6 @@
       "owner": "Kaushik",
       "original_owner": "Kaushik",
       "owner_points": 590.0,
-      "ownership_status": "original"
-    },
-    {
-      "name": "Prabhsimran Singh",
-      "team": "PBKS",
-      "role": "WICKET KEEPER",
-      "credits": 9.0,
-      "total_points": 585.0,
-      "owner": "Aravinth",
-      "original_owner": "Aravinth",
-      "owner_points": 585.0,
       "ownership_status": "original"
     },
     {
@@ -255,17 +266,6 @@
       "ownership_status": "original"
     },
     {
-      "name": "Shreyas Iyer",
-      "team": "PBKS",
-      "role": "BATSMAN",
-      "credits": 10.5,
-      "total_points": 551.0,
-      "owner": "Vignesh",
-      "original_owner": "Vignesh",
-      "owner_points": 551.0,
-      "ownership_status": "original"
-    },
-    {
       "name": "Travis Head",
       "team": "SRH",
       "role": "BATSMAN",
@@ -274,6 +274,17 @@
       "owner": "JR",
       "original_owner": "JR",
       "owner_points": 549.0,
+      "ownership_status": "original"
+    },
+    {
+      "name": "Priyansh Arya",
+      "team": "PBKS",
+      "role": "BATSMAN",
+      "credits": 9.5,
+      "total_points": 535.0,
+      "owner": "Barath",
+      "original_owner": "Barath",
+      "owner_points": 535.0,
       "ownership_status": "original"
     },
     {
@@ -376,6 +387,17 @@
       "ownership_status": "original"
     },
     {
+      "name": "Axar Patel",
+      "team": "DC",
+      "role": "ALL ROUNDER",
+      "credits": 9.5,
+      "total_points": 465.0,
+      "owner": "Kaushik",
+      "original_owner": "JR",
+      "owner_points": 140.0,
+      "ownership_status": "replacement"
+    },
+    {
       "name": "Rishabh Pant",
       "team": "LSG",
       "role": "WICKET KEEPER",
@@ -406,17 +428,6 @@
       "owner": "Barath",
       "original_owner": "Barath",
       "owner_points": 457.0,
-      "ownership_status": "original"
-    },
-    {
-      "name": "Priyansh Arya",
-      "team": "PBKS",
-      "role": "BATSMAN",
-      "credits": 9.5,
-      "total_points": 449.0,
-      "owner": "Barath",
-      "original_owner": "Barath",
-      "owner_points": 449.0,
       "ownership_status": "original"
     },
     {
@@ -464,6 +475,17 @@
       "ownership_status": "original"
     },
     {
+      "name": "Tristan Stubbs",
+      "team": "DC",
+      "role": "BATSMAN",
+      "credits": 9.0,
+      "total_points": 431.0,
+      "owner": "Venky",
+      "original_owner": "Venky",
+      "owner_points": 431.0,
+      "ownership_status": "original"
+    },
+    {
       "name": "Jason Holder",
       "team": "GT",
       "role": "ALL ROUNDER",
@@ -472,17 +494,6 @@
       "owner": "Aravinth",
       "original_owner": "Aravinth",
       "owner_points": 431.0,
-      "ownership_status": "original"
-    },
-    {
-      "name": "Tristan Stubbs",
-      "team": "DC",
-      "role": "BATSMAN",
-      "credits": 9.0,
-      "total_points": 414.0,
-      "owner": "Venky",
-      "original_owner": "Venky",
-      "owner_points": 414.0,
       "ownership_status": "original"
     },
     {
@@ -552,6 +563,17 @@
       "ownership_status": "original"
     },
     {
+      "name": "Arshdeep Singh",
+      "team": "PBKS",
+      "role": "BOWLER",
+      "credits": 10.0,
+      "total_points": 390.0,
+      "owner": "Venky",
+      "original_owner": "Venky",
+      "owner_points": 390.0,
+      "ownership_status": "original"
+    },
+    {
       "name": "AM Ghazanfar",
       "team": "MI",
       "role": "BOWLER",
@@ -583,17 +605,6 @@
       "original_owner": "Aravinth",
       "owner_points": 374.0,
       "ownership_status": "original"
-    },
-    {
-      "name": "Axar Patel",
-      "team": "DC",
-      "role": "ALL ROUNDER",
-      "credits": 9.5,
-      "total_points": 371.0,
-      "owner": "Kaushik",
-      "original_owner": "JR",
-      "owner_points": 46.0,
-      "ownership_status": "replacement"
     },
     {
       "name": "Mohammed Siraj",
@@ -651,6 +662,17 @@
       "ownership_status": "original"
     },
     {
+      "name": "Marcus Stoinis",
+      "team": "PBKS",
+      "role": "ALL ROUNDER",
+      "credits": 9.0,
+      "total_points": 349.0,
+      "owner": "Sid",
+      "original_owner": "Sid",
+      "owner_points": 349.0,
+      "ownership_status": "original"
+    },
+    {
       "name": "Phil Salt",
       "team": "RCB",
       "role": "WICKET KEEPER",
@@ -692,17 +714,6 @@
       "owner": "Venky",
       "original_owner": "Venky",
       "owner_points": 334.0,
-      "ownership_status": "original"
-    },
-    {
-      "name": "Arshdeep Singh",
-      "team": "PBKS",
-      "role": "BOWLER",
-      "credits": 10.0,
-      "total_points": 332.0,
-      "owner": "Venky",
-      "original_owner": "Venky",
-      "owner_points": 332.0,
       "ownership_status": "original"
     },
     {
@@ -761,17 +772,6 @@
       "ownership_status": "original"
     },
     {
-      "name": "Marcus Stoinis",
-      "team": "PBKS",
-      "role": "ALL ROUNDER",
-      "credits": 9.0,
-      "total_points": 325.0,
-      "owner": "Sid",
-      "original_owner": "Sid",
-      "owner_points": 325.0,
-      "ownership_status": "original"
-    },
-    {
       "name": "Suryakumar Yadav",
       "team": "MI",
       "role": "BATSMAN",
@@ -827,6 +827,17 @@
       "ownership_status": "replacement"
     },
     {
+      "name": "David Miller",
+      "team": "DC",
+      "role": "BATSMAN",
+      "credits": 9.0,
+      "total_points": 305.0,
+      "owner": "Sid",
+      "original_owner": "Sid",
+      "owner_points": 305.0,
+      "ownership_status": "original"
+    },
+    {
       "name": "Shivam Dube",
       "team": "CSK",
       "role": "ALL ROUNDER",
@@ -835,6 +846,17 @@
       "owner": "JR",
       "original_owner": "JR",
       "owner_points": 296.0,
+      "ownership_status": "original"
+    },
+    {
+      "name": "Marco Jansen",
+      "team": "PBKS",
+      "role": "ALL ROUNDER",
+      "credits": 9.5,
+      "total_points": 292.0,
+      "owner": "Barath",
+      "original_owner": "Barath",
+      "owner_points": 292.0,
       "ownership_status": "original"
     },
     {
@@ -858,17 +880,6 @@
       "original_owner": null,
       "owner_points": null,
       "ownership_status": "unowned"
-    },
-    {
-      "name": "Marco Jansen",
-      "team": "PBKS",
-      "role": "ALL ROUNDER",
-      "credits": 9.5,
-      "total_points": 284.0,
-      "owner": "Barath",
-      "original_owner": "Barath",
-      "owner_points": 284.0,
-      "ownership_status": "original"
     },
     {
       "name": "Harsh Dubey",
@@ -937,6 +948,17 @@
       "ownership_status": "replacement"
     },
     {
+      "name": "Yuzvendra Chahal",
+      "team": "PBKS",
+      "role": "BOWLER",
+      "credits": 9.5,
+      "total_points": 260.0,
+      "owner": "Vignesh",
+      "original_owner": "Vignesh",
+      "owner_points": 260.0,
+      "ownership_status": "original"
+    },
+    {
       "name": "Kartik Sharma",
       "team": "CSK",
       "role": "WICKET KEEPER",
@@ -992,17 +1014,6 @@
       "ownership_status": "replacement"
     },
     {
-      "name": "Yuzvendra Chahal",
-      "team": "PBKS",
-      "role": "BOWLER",
-      "credits": 9.5,
-      "total_points": 248.0,
-      "owner": "Vignesh",
-      "original_owner": "Vignesh",
-      "owner_points": 248.0,
-      "ownership_status": "original"
-    },
-    {
       "name": "Kuldeep Yadav",
       "team": "DC",
       "role": "BOWLER",
@@ -1044,6 +1055,17 @@
       "owner": "Vignesh",
       "original_owner": "Vignesh",
       "owner_points": 231.0,
+      "ownership_status": "original"
+    },
+    {
+      "name": "Ashutosh Sharma",
+      "team": "DC",
+      "role": "BATSMAN",
+      "credits": 9.0,
+      "total_points": 229.0,
+      "owner": "Vignesh",
+      "original_owner": "Vignesh",
+      "owner_points": 229.0,
       "ownership_status": "original"
     },
     {
@@ -1091,25 +1113,25 @@
       "ownership_status": "unowned"
     },
     {
-      "name": "David Miller",
+      "name": "Mukesh Kumar",
       "team": "DC",
-      "role": "BATSMAN",
-      "credits": 9.0,
-      "total_points": 217.0,
-      "owner": "Sid",
-      "original_owner": "Sid",
-      "owner_points": 217.0,
-      "ownership_status": "original"
+      "role": "BOWLER",
+      "credits": 8.5,
+      "total_points": 216.0,
+      "owner": null,
+      "original_owner": null,
+      "owner_points": null,
+      "ownership_status": "unowned"
     },
     {
       "name": "Shashank Singh",
       "team": "PBKS",
       "role": "BATSMAN",
       "credits": 9.0,
-      "total_points": 212.0,
+      "total_points": 214.0,
       "owner": "Kaushik",
       "original_owner": "Kaushik",
-      "owner_points": 212.0,
+      "owner_points": 214.0,
       "ownership_status": "original"
     },
     {
@@ -1157,6 +1179,17 @@
       "ownership_status": "dropped"
     },
     {
+      "name": "Suryansh Shedge",
+      "team": "PBKS",
+      "role": "ALL ROUNDER",
+      "credits": 7.5,
+      "total_points": 192.0,
+      "owner": "Venky",
+      "original_owner": null,
+      "owner_points": 37.0,
+      "ownership_status": "replacement"
+    },
+    {
       "name": "Urvil Patel",
       "team": "CSK",
       "role": "WICKET KEEPER",
@@ -1168,17 +1201,6 @@
       "ownership_status": "replacement"
     },
     {
-      "name": "Ashutosh Sharma",
-      "team": "DC",
-      "role": "BATSMAN",
-      "credits": 9.0,
-      "total_points": 189.0,
-      "owner": "Vignesh",
-      "original_owner": "Vignesh",
-      "owner_points": 189.0,
-      "ownership_status": "original"
-    },
-    {
       "name": "Digvesh Singh",
       "team": "LSG",
       "role": "BOWLER",
@@ -1188,17 +1210,6 @@
       "original_owner": "Aravinth",
       "owner_points": 187.0,
       "ownership_status": "original"
-    },
-    {
-      "name": "Mukesh Kumar",
-      "team": "DC",
-      "role": "BOWLER",
-      "credits": 8.5,
-      "total_points": 187.0,
-      "owner": null,
-      "original_owner": null,
-      "owner_points": null,
-      "ownership_status": "unowned"
     },
     {
       "name": "Aniket Verma",
@@ -1366,15 +1377,15 @@
       "ownership_status": "original"
     },
     {
-      "name": "Suryansh Shedge",
-      "team": "PBKS",
-      "role": "ALL ROUNDER",
-      "credits": 7.5,
+      "name": "Mitchell Starc",
+      "team": "DC",
+      "role": "BOWLER",
+      "credits": 10.0,
       "total_points": 155.0,
-      "owner": "Venky",
-      "original_owner": null,
-      "owner_points": 0.0,
-      "ownership_status": "replacement"
+      "owner": "JR",
+      "original_owner": "JR",
+      "owner_points": 155.0,
+      "ownership_status": "original"
     },
     {
       "name": "Tushar Deshpande",
@@ -1542,17 +1553,6 @@
       "ownership_status": "unowned"
     },
     {
-      "name": "Mitchell Starc",
-      "team": "DC",
-      "role": "BOWLER",
-      "credits": 10.0,
-      "total_points": 107.0,
-      "owner": "JR",
-      "original_owner": "JR",
-      "owner_points": 107.0,
-      "ownership_status": "original"
-    },
-    {
       "name": "Deepak Chahar",
       "team": "MI",
       "role": "BOWLER",
@@ -1595,6 +1595,17 @@
       "original_owner": "Kaushik",
       "owner_points": null,
       "ownership_status": "dropped"
+    },
+    {
+      "name": "Madhav Tiwari",
+      "team": "DC",
+      "role": "ALL ROUNDER",
+      "credits": 7.5,
+      "total_points": 82.0,
+      "owner": null,
+      "original_owner": null,
+      "owner_points": null,
+      "ownership_status": "unowned"
     },
     {
       "name": "Manav Suthar",
@@ -1696,6 +1707,17 @@
       "ownership_status": "original"
     },
     {
+      "name": "Yash Thakur",
+      "team": "PBKS",
+      "role": "BOWLER",
+      "credits": 7.0,
+      "total_points": 56.0,
+      "owner": null,
+      "original_owner": null,
+      "owner_points": null,
+      "ownership_status": "unowned"
+    },
+    {
       "name": "David Payne",
       "team": "SRH",
       "role": "BOWLER",
@@ -1740,6 +1762,17 @@
       "ownership_status": "unowned"
     },
     {
+      "name": "Abishek Porel",
+      "team": "DC",
+      "role": "WICKET KEEPER",
+      "credits": 8.5,
+      "total_points": 51.0,
+      "owner": "JR",
+      "original_owner": "JR",
+      "owner_points": 51.0,
+      "ownership_status": "original"
+    },
+    {
       "name": "Raghu Sharma",
       "team": "MI",
       "role": "BOWLER",
@@ -1773,17 +1806,6 @@
       "ownership_status": "unowned"
     },
     {
-      "name": "Abishek Porel",
-      "team": "DC",
-      "role": "WICKET KEEPER",
-      "credits": 8.5,
-      "total_points": 41.0,
-      "owner": "JR",
-      "original_owner": "JR",
-      "owner_points": 41.0,
-      "ownership_status": "original"
-    },
-    {
       "name": "Ramakrishna Ghosh",
       "team": "CSK",
       "role": "BOWLER",
@@ -1800,6 +1822,39 @@
       "role": "WICKET KEEPER",
       "credits": 7.0,
       "total_points": 33.0,
+      "owner": null,
+      "original_owner": null,
+      "owner_points": null,
+      "ownership_status": "unowned"
+    },
+    {
+      "name": "Ben Dwarshuis",
+      "team": "PBKS",
+      "role": "ALL ROUNDER",
+      "credits": 7.5,
+      "total_points": 31.0,
+      "owner": null,
+      "original_owner": null,
+      "owner_points": null,
+      "ownership_status": "unowned"
+    },
+    {
+      "name": "Auqib Nabi",
+      "team": "DC",
+      "role": "ALL ROUNDER",
+      "credits": 7.5,
+      "total_points": 30.0,
+      "owner": null,
+      "original_owner": "Barath",
+      "owner_points": null,
+      "ownership_status": "dropped"
+    },
+    {
+      "name": "Sahil Parakh",
+      "team": "DC",
+      "role": "BATSMAN",
+      "credits": 7.0,
+      "total_points": 30.0,
       "owner": null,
       "original_owner": null,
       "owner_points": null,
@@ -1949,17 +2004,6 @@
       "ownership_status": "dropped"
     },
     {
-      "name": "Auqib Nabi",
-      "team": "DC",
-      "role": "ALL ROUNDER",
-      "credits": 7.5,
-      "total_points": 5.0,
-      "owner": null,
-      "original_owner": "Barath",
-      "owner_points": null,
-      "ownership_status": "dropped"
-    },
-    {
       "name": "Sai Kishore",
       "team": "GT",
       "role": "BOWLER",
@@ -2029,17 +2073,6 @@
       "name": "Lhuan-dre Pretorius",
       "team": "RR",
       "role": "WICKET KEEPER",
-      "credits": 7.0,
-      "total_points": 2.0,
-      "owner": null,
-      "original_owner": null,
-      "owner_points": null,
-      "ownership_status": "unowned"
-    },
-    {
-      "name": "Sahil Parakh",
-      "team": "DC",
-      "role": "BATSMAN",
       "credits": 7.0,
       "total_points": 2.0,
       "owner": null,
@@ -2224,105 +2257,6 @@
       "ownership_status": "unowned"
     },
     {
-      "name": "Krains Fuletra",
-      "team": "SRH",
-      "role": "ALL ROUNDER",
-      "credits": 7.5,
-      "total_points": 0.0,
-      "owner": null,
-      "original_owner": null,
-      "owner_points": null,
-      "ownership_status": "unowned"
-    },
-    {
-      "name": "Sarthak Ranjan",
-      "team": "KKR",
-      "role": "ALL ROUNDER",
-      "credits": 7.5,
-      "total_points": 0.0,
-      "owner": null,
-      "original_owner": null,
-      "owner_points": null,
-      "ownership_status": "unowned"
-    },
-    {
-      "name": "Satvik Deswal",
-      "team": "RCB",
-      "role": "ALL ROUNDER",
-      "credits": 7.5,
-      "total_points": 0.0,
-      "owner": null,
-      "original_owner": null,
-      "owner_points": null,
-      "ownership_status": "unowned"
-    },
-    {
-      "name": "Aman Khan",
-      "team": "CSK",
-      "role": "ALL ROUNDER",
-      "credits": 7.5,
-      "total_points": 0.0,
-      "owner": null,
-      "original_owner": null,
-      "owner_points": null,
-      "ownership_status": "unowned"
-    },
-    {
-      "name": "Jack Edwards",
-      "team": "SRH",
-      "role": "ALL ROUNDER",
-      "credits": 7.5,
-      "total_points": 0.0,
-      "owner": null,
-      "original_owner": null,
-      "owner_points": null,
-      "ownership_status": "unowned"
-    },
-    {
-      "name": "Ben Dwarshuis",
-      "team": "PBKS",
-      "role": "ALL ROUNDER",
-      "credits": 7.5,
-      "total_points": 0.0,
-      "owner": null,
-      "original_owner": null,
-      "owner_points": null,
-      "ownership_status": "unowned"
-    },
-    {
-      "name": "Ajay Mandal",
-      "team": "DC",
-      "role": "ALL ROUNDER",
-      "credits": 7.5,
-      "total_points": 0.0,
-      "owner": null,
-      "original_owner": null,
-      "owner_points": null,
-      "ownership_status": "unowned"
-    },
-    {
-      "name": "Zakary Foulkes",
-      "team": "CSK",
-      "role": "ALL ROUNDER",
-      "credits": 7.5,
-      "total_points": 0.0,
-      "owner": null,
-      "original_owner": null,
-      "owner_points": null,
-      "ownership_status": "unowned"
-    },
-    {
-      "name": "Atharva Ankolekar",
-      "team": "MI",
-      "role": "ALL ROUNDER",
-      "credits": 7.5,
-      "total_points": 0.0,
-      "owner": null,
-      "original_owner": null,
-      "owner_points": null,
-      "ownership_status": "unowned"
-    },
-    {
       "name": "Daksh Kamra",
       "team": "KKR",
       "role": "ALL ROUNDER",
@@ -2345,8 +2279,85 @@
       "ownership_status": "unowned"
     },
     {
-      "name": "Madhav Tiwari",
+      "name": "Aman Khan",
+      "team": "CSK",
+      "role": "ALL ROUNDER",
+      "credits": 7.5,
+      "total_points": 0.0,
+      "owner": null,
+      "original_owner": null,
+      "owner_points": null,
+      "ownership_status": "unowned"
+    },
+    {
+      "name": "Atharva Ankolekar",
+      "team": "MI",
+      "role": "ALL ROUNDER",
+      "credits": 7.5,
+      "total_points": 0.0,
+      "owner": null,
+      "original_owner": null,
+      "owner_points": null,
+      "ownership_status": "unowned"
+    },
+    {
+      "name": "Jack Edwards",
+      "team": "SRH",
+      "role": "ALL ROUNDER",
+      "credits": 7.5,
+      "total_points": 0.0,
+      "owner": null,
+      "original_owner": null,
+      "owner_points": null,
+      "ownership_status": "unowned"
+    },
+    {
+      "name": "Zakary Foulkes",
+      "team": "CSK",
+      "role": "ALL ROUNDER",
+      "credits": 7.5,
+      "total_points": 0.0,
+      "owner": null,
+      "original_owner": null,
+      "owner_points": null,
+      "ownership_status": "unowned"
+    },
+    {
+      "name": "Sarthak Ranjan",
+      "team": "KKR",
+      "role": "ALL ROUNDER",
+      "credits": 7.5,
+      "total_points": 0.0,
+      "owner": null,
+      "original_owner": null,
+      "owner_points": null,
+      "ownership_status": "unowned"
+    },
+    {
+      "name": "Krains Fuletra",
+      "team": "SRH",
+      "role": "ALL ROUNDER",
+      "credits": 7.5,
+      "total_points": 0.0,
+      "owner": null,
+      "original_owner": null,
+      "owner_points": null,
+      "ownership_status": "unowned"
+    },
+    {
+      "name": "Ajay Mandal",
       "team": "DC",
+      "role": "ALL ROUNDER",
+      "credits": 7.5,
+      "total_points": 0.0,
+      "owner": null,
+      "original_owner": null,
+      "owner_points": null,
+      "ownership_status": "unowned"
+    },
+    {
+      "name": "Satvik Deswal",
+      "team": "RCB",
       "role": "ALL ROUNDER",
       "credits": 7.5,
       "total_points": 0.0,
@@ -2389,9 +2400,9 @@
       "ownership_status": "unowned"
     },
     {
-      "name": "Shreyas Gopal",
-      "team": "CSK",
-      "role": "ALL ROUNDER",
+      "name": "Kuldeep Sen",
+      "team": "RR",
+      "role": "BOWLER",
       "credits": 7.5,
       "total_points": 0.0,
       "owner": null,
@@ -2400,9 +2411,9 @@
       "ownership_status": "unowned"
     },
     {
-      "name": "Kuldeep Sen",
-      "team": "RR",
-      "role": "BOWLER",
+      "name": "Shreyas Gopal",
+      "team": "CSK",
+      "role": "ALL ROUNDER",
       "credits": 7.5,
       "total_points": 0.0,
       "owner": null,
@@ -2554,7 +2565,18 @@
       "ownership_status": "unowned"
     },
     {
-      "name": "Gurnoor Brar",
+      "name": "Adam Milne",
+      "team": "RR",
+      "role": "BOWLER",
+      "credits": 7.0,
+      "total_points": 0.0,
+      "owner": null,
+      "original_owner": null,
+      "owner_points": null,
+      "ownership_status": "unowned"
+    },
+    {
+      "name": "Luke Wood",
       "team": "GT",
       "role": "BOWLER",
       "credits": 7.0,
@@ -2565,7 +2587,7 @@
       "ownership_status": "unowned"
     },
     {
-      "name": "Jayant Yadav",
+      "name": "Gurnoor Brar",
       "team": "GT",
       "role": "BOWLER",
       "credits": 7.0,
@@ -2587,7 +2609,18 @@
       "ownership_status": "unowned"
     },
     {
-      "name": "Praveen Dubey",
+      "name": "Prithvi Raj Yarra",
+      "team": "GT",
+      "role": "BOWLER",
+      "credits": 7.0,
+      "total_points": 0.0,
+      "owner": null,
+      "original_owner": null,
+      "owner_points": null,
+      "ownership_status": "unowned"
+    },
+    {
+      "name": "Vishal Nishad",
       "team": "PBKS",
       "role": "BOWLER",
       "credits": 7.0,
@@ -2598,7 +2631,7 @@
       "ownership_status": "unowned"
     },
     {
-      "name": "Luke Wood",
+      "name": "Jayant Yadav",
       "team": "GT",
       "role": "BOWLER",
       "credits": 7.0,
@@ -2620,52 +2653,8 @@
       "ownership_status": "unowned"
     },
     {
-      "name": "Adam Milne",
-      "team": "RR",
-      "role": "BOWLER",
-      "credits": 7.0,
-      "total_points": 0.0,
-      "owner": null,
-      "original_owner": null,
-      "owner_points": null,
-      "ownership_status": "unowned"
-    },
-    {
-      "name": "Vishal Nishad",
-      "team": "PBKS",
-      "role": "BOWLER",
-      "credits": 7.0,
-      "total_points": 0.0,
-      "owner": null,
-      "original_owner": null,
-      "owner_points": null,
-      "ownership_status": "unowned"
-    },
-    {
-      "name": "Prithvi Raj Yarra",
-      "team": "GT",
-      "role": "BOWLER",
-      "credits": 7.0,
-      "total_points": 0.0,
-      "owner": null,
-      "original_owner": null,
-      "owner_points": null,
-      "ownership_status": "unowned"
-    },
-    {
       "name": "Kwena Maphaka",
       "team": "RR",
-      "role": "BOWLER",
-      "credits": 7.0,
-      "total_points": 0.0,
-      "owner": null,
-      "original_owner": null,
-      "owner_points": null,
-      "ownership_status": "unowned"
-    },
-    {
-      "name": "Saurabh Dubey",
-      "team": "KKR",
       "role": "BOWLER",
       "credits": 7.0,
       "total_points": 0.0,
@@ -2686,8 +2675,41 @@
       "ownership_status": "unowned"
     },
     {
+      "name": "Saurabh Dubey",
+      "team": "KKR",
+      "role": "BOWLER",
+      "credits": 7.0,
+      "total_points": 0.0,
+      "owner": null,
+      "original_owner": null,
+      "owner_points": null,
+      "ownership_status": "unowned"
+    },
+    {
+      "name": "Praveen Dubey",
+      "team": "PBKS",
+      "role": "BOWLER",
+      "credits": 7.0,
+      "total_points": 0.0,
+      "owner": null,
+      "original_owner": null,
+      "owner_points": null,
+      "ownership_status": "unowned"
+    },
+    {
       "name": "Kulwant Khejroliya",
       "team": "GT",
+      "role": "BOWLER",
+      "credits": 7.0,
+      "total_points": 0.0,
+      "owner": null,
+      "original_owner": null,
+      "owner_points": null,
+      "ownership_status": "unowned"
+    },
+    {
+      "name": "Amit Kumar",
+      "team": "SRH",
       "role": "BOWLER",
       "credits": 7.0,
       "total_points": 0.0,
@@ -2710,17 +2732,6 @@
     {
       "name": "Mohammad Izhar",
       "team": "MI",
-      "role": "BOWLER",
-      "credits": 7.0,
-      "total_points": 0.0,
-      "owner": null,
-      "original_owner": null,
-      "owner_points": null,
-      "ownership_status": "unowned"
-    },
-    {
-      "name": "Amit Kumar",
-      "team": "SRH",
       "role": "BOWLER",
       "credits": 7.0,
       "total_points": 0.0,
@@ -2763,9 +2774,9 @@
       "ownership_status": "original"
     },
     {
-      "name": "Tom Banton",
-      "team": "GT",
-      "role": "WICKET KEEPER",
+      "name": "Aman Perala",
+      "team": "RR",
+      "role": "BATSMAN",
       "credits": 7.0,
       "total_points": 0.0,
       "owner": null,
@@ -2774,9 +2785,9 @@
       "ownership_status": "unowned"
     },
     {
-      "name": "Aman Perala",
-      "team": "RR",
-      "role": "BATSMAN",
+      "name": "Tom Banton",
+      "team": "GT",
+      "role": "WICKET KEEPER",
       "credits": 7.0,
       "total_points": 0.0,
       "owner": null,
@@ -2854,17 +2865,6 @@
       "name": "Anuj Rawat",
       "team": "GT",
       "role": "WICKET KEEPER",
-      "credits": 7.0,
-      "total_points": 0.0,
-      "owner": null,
-      "original_owner": null,
-      "owner_points": null,
-      "ownership_status": "unowned"
-    },
-    {
-      "name": "Yash Thakur",
-      "team": "PBKS",
-      "role": "BOWLER",
       "credits": 7.0,
       "total_points": 0.0,
       "owner": null,

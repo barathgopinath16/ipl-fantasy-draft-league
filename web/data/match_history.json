@@ -1,9 +1,23 @@
 {
-  "Kaushik": {},
-  "Vignesh": {},
-  "Aravinth": {},
-  "Sid": {},
-  "Barath": {},
-  "JR": {},
-  "Venky": {}
+  "Kaushik": {
+    "12-May": 96
+  },
+  "Vignesh": {
+    "12-May": 153
+  },
+  "Aravinth": {
+    "12-May": 33
+  },
+  "Sid": {
+    "12-May": 112
+  },
+  "Barath": {
+    "12-May": 161
+  },
+  "JR": {
+    "12-May": 58
+  },
+  "Venky": {
+    "12-May": 112
+  }
 }
