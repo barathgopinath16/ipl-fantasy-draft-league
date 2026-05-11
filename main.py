@@ -24,6 +24,35 @@ from config import LEDGER_FILE, API_LOG_DIR
 SNAPSHOT_FILE = os.path.join(API_LOG_DIR, "latest_snapshot.json")
 
 
+def _ensure_milestone_snapshots():
+    """
+    Check all configured milestones and fetch any missing snapshots from the API.
+    This ensures milestone-adjusted scoring always works, even after a --reset.
+    """
+    from replacement_manager import (
+        load_replacement_draft, has_milestone_snapshot, save_milestone_snapshot
+    )
+    from fetcher import fetch_all_players
+
+    draft = load_replacement_draft()
+    milestones = draft.get("milestones", [])
+    if not milestones:
+        return
+
+    for m in milestones:
+        after = m["after_match"]
+        gd_id = m.get("snapshot_gameday_id", after)
+        if has_milestone_snapshot(after):
+            continue
+
+        print(f"📌 Milestone M{after} snapshot missing — fetching GD{gd_id} from API...")
+        try:
+            players = fetch_all_players(gameday_id=gd_id)
+            save_milestone_snapshot(after, players)
+        except Exception as e:
+            print(f"   ⚠️  Could not restore M{after} snapshot: {e}")
+
+
 def cmd_run():
     """
     Fetch the latest player data from the API and update the ledger.
@@ -38,6 +67,9 @@ def cmd_run():
     from export_web_data import run_export
 
     owner_map = load_owner_map()
+
+    # Ensure all milestone snapshots exist before computing
+    _ensure_milestone_snapshots()
 
     # Fetch latest data
     print("📡 Fetching fixtures...")
