@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-11 22:20:58",
+  "updated_at": "2026-05-11 23:05:45",
   "owners": [
     {
       "rank": 1,
@@ -11,14 +11,14 @@
     {
       "rank": 2,
       "owner": "Barath",
-      "total_points": 7175.0,
+      "total_points": 7187.0,
       "last_update_points": 385,
       "player_count": 20
     },
     {
       "rank": 3,
       "owner": "Kaushik",
-      "total_points": 7121.0,
+      "total_points": 7167.0,
       "last_update_points": 206,
       "player_count": 20
     },
@@ -39,14 +39,14 @@
     {
       "rank": 6,
       "owner": "Vignesh",
-      "total_points": 5134.0,
+      "total_points": 5175.0,
       "last_update_points": 219,
       "player_count": 20
     },
     {
       "rank": 7,
       "owner": "JR",
-      "total_points": 4772.0,
+      "total_points": 4835.0,
       "last_update_points": 54,
       "player_count": 20
     }

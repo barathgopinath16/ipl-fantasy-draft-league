@@ -348,10 +348,10 @@
       "role": "BOWLER",
       "credits": 8.5,
       "total_points": 490.0,
-      "owner": null,
+      "owner": "JR",
       "original_owner": null,
-      "owner_points": null,
-      "ownership_status": "unowned"
+      "owner_points": 0.0,
+      "ownership_status": "replacement"
     },
     {
       "name": "Cameron Green",
@@ -590,10 +590,10 @@
       "role": "ALL ROUNDER",
       "credits": 9.5,
       "total_points": 371.0,
-      "owner": "JR",
+      "owner": "Kaushik",
       "original_owner": "JR",
-      "owner_points": 371.0,
-      "ownership_status": "original"
+      "owner_points": 46.0,
+      "ownership_status": "replacement"
     },
     {
       "name": "Mohammed Siraj",
@@ -656,10 +656,10 @@
       "role": "WICKET KEEPER",
       "credits": 9.5,
       "total_points": 348.0,
-      "owner": "Venky",
+      "owner": "Barath",
       "original_owner": "Venky",
-      "owner_points": 348.0,
-      "ownership_status": "original"
+      "owner_points": 0.0,
+      "ownership_status": "replacement"
     },
     {
       "name": "Mohsin Khan",
@@ -1162,10 +1162,10 @@
       "role": "WICKET KEEPER",
       "credits": 8.0,
       "total_points": 191.0,
-      "owner": null,
+      "owner": "JR",
       "original_owner": null,
-      "owner_points": null,
-      "ownership_status": "unowned"
+      "owner_points": 109.0,
+      "ownership_status": "replacement"
     },
     {
       "name": "Ashutosh Sharma",
@@ -1206,10 +1206,10 @@
       "role": "ALL ROUNDER",
       "credits": 9.0,
       "total_points": 185.0,
-      "owner": "Barath",
+      "owner": null,
       "original_owner": "Barath",
-      "owner_points": 185.0,
-      "ownership_status": "original"
+      "owner_points": null,
+      "ownership_status": "dropped"
     },
     {
       "name": "Sherfane Rutherford",
@@ -1250,10 +1250,10 @@
       "role": "BOWLER",
       "credits": 8.0,
       "total_points": 170.0,
-      "owner": null,
+      "owner": "Barath",
       "original_owner": null,
-      "owner_points": null,
-      "ownership_status": "unowned"
+      "owner_points": 12.0,
+      "ownership_status": "replacement"
     },
     {
       "name": "Shimron Hetmyer",
@@ -1272,10 +1272,10 @@
       "role": "ALL ROUNDER",
       "credits": 9.0,
       "total_points": 169.0,
-      "owner": "Venky",
+      "owner": "Kaushik",
       "original_owner": "Venky",
-      "owner_points": 169.0,
-      "ownership_status": "original"
+      "owner_points": 0.0,
+      "ownership_status": "replacement"
     },
     {
       "name": "Ashwani Kumar",
@@ -1371,10 +1371,10 @@
       "role": "ALL ROUNDER",
       "credits": 7.5,
       "total_points": 155.0,
-      "owner": null,
+      "owner": "Venky",
       "original_owner": null,
-      "owner_points": null,
-      "ownership_status": "unowned"
+      "owner_points": 0.0,
+      "ownership_status": "replacement"
     },
     {
       "name": "Tushar Deshpande",
@@ -1415,10 +1415,10 @@
       "role": "BOWLER",
       "credits": 9.5,
       "total_points": 150.0,
-      "owner": null,
+      "owner": "Venky",
       "original_owner": null,
-      "owner_points": null,
-      "ownership_status": "unowned"
+      "owner_points": 0.0,
+      "ownership_status": "replacement"
     },
     {
       "name": "Jasprit Bumrah",
@@ -1437,10 +1437,10 @@
       "role": "BOWLER",
       "credits": 7.0,
       "total_points": 144.0,
-      "owner": "Vignesh",
+      "owner": null,
       "original_owner": "Vignesh",
-      "owner_points": 144.0,
-      "ownership_status": "original"
+      "owner_points": null,
+      "ownership_status": "dropped"
     },
     {
       "name": "Mukesh Choudhary",
@@ -1448,10 +1448,10 @@
       "role": "BOWLER",
       "credits": 7.5,
       "total_points": 138.0,
-      "owner": null,
+      "owner": "Vignesh",
       "original_owner": null,
-      "owner_points": null,
-      "ownership_status": "unowned"
+      "owner_points": 0.0,
+      "ownership_status": "replacement"
     },
     {
       "name": "Will Jacks",
@@ -1481,10 +1481,10 @@
       "role": "BATSMAN",
       "credits": 7.5,
       "total_points": 126.0,
-      "owner": null,
+      "owner": "Vignesh",
       "original_owner": "JR",
-      "owner_points": null,
-      "ownership_status": "dropped"
+      "owner_points": 41.0,
+      "ownership_status": "replacement"
     },
     {
       "name": "Yash Punja",
@@ -1591,10 +1591,10 @@
       "role": "BOWLER",
       "credits": 10.0,
       "total_points": 84.0,
-      "owner": "Kaushik",
+      "owner": null,
       "original_owner": "Kaushik",
-      "owner_points": 84.0,
-      "ownership_status": "original"
+      "owner_points": null,
+      "ownership_status": "dropped"
     },
     {
       "name": "Manav Suthar",
@@ -1635,10 +1635,10 @@
       "role": "BOWLER",
       "credits": 9.5,
       "total_points": 70.0,
-      "owner": "JR",
+      "owner": null,
       "original_owner": "JR",
-      "owner_points": 70.0,
-      "ownership_status": "original"
+      "owner_points": null,
+      "ownership_status": "dropped"
     },
     {
       "name": "Kyle Jamieson",
@@ -1932,10 +1932,10 @@
       "role": "BOWLER",
       "credits": 7.0,
       "total_points": 8.0,
-      "owner": "Kaushik",
+      "owner": null,
       "original_owner": "Kaushik",
-      "owner_points": 8.0,
-      "ownership_status": "original"
+      "owner_points": null,
+      "ownership_status": "dropped"
     },
     {
       "name": "Harpreet Brar",
@@ -1954,10 +1954,10 @@
       "role": "ALL ROUNDER",
       "credits": 7.5,
       "total_points": 5.0,
-      "owner": "Barath",
+      "owner": null,
       "original_owner": "Barath",
-      "owner_points": 5.0,
-      "ownership_status": "original"
+      "owner_points": null,
+      "ownership_status": "dropped"
     },
     {
       "name": "Sai Kishore",
@@ -2427,10 +2427,10 @@
       "role": "ALL ROUNDER",
       "credits": 7.5,
       "total_points": 0.0,
-      "owner": "Vignesh",
+      "owner": null,
       "original_owner": "Vignesh",
-      "owner_points": 0.0,
-      "ownership_status": "original"
+      "owner_points": null,
+      "ownership_status": "dropped"
     },
     {
       "name": "Nuwan Thushara",

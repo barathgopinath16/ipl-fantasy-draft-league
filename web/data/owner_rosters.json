@@ -1,7 +1,7 @@
 {
   "Kaushik": {
     "active_count": 20,
-    "total_points": 7121.0,
+    "total_points": 7167.0,
     "players": [
       {
         "name": "Heinrich Klaasen",
@@ -161,7 +161,7 @@
         "total_api_points": 263.0,
         "owner_points": 114.0,
         "status": "replacement",
-        "phase": "M26-M52"
+        "phase": "M26-M50"
       },
       {
         "name": "Praful Hinge",
@@ -171,7 +171,7 @@
         "total_api_points": 222.0,
         "owner_points": 94.0,
         "status": "replacement",
-        "phase": "M26-M52"
+        "phase": "M26-M50"
       },
       {
         "name": "Trent Boult",
@@ -180,7 +180,7 @@
         "credits": 10.0,
         "total_api_points": 84.0,
         "owner_points": 84.0,
-        "status": "original",
+        "status": "dropped",
         "phase": "M1-M25"
       },
       {
@@ -204,14 +204,34 @@
         "phase": "M1-M25"
       },
       {
+        "name": "Axar Patel",
+        "team": "DC",
+        "role": "ALL ROUNDER",
+        "credits": 9.5,
+        "total_api_points": 371.0,
+        "owner_points": 46.0,
+        "status": "replacement",
+        "phase": "M51+"
+      },
+      {
         "name": "Rahul Chahar",
         "team": "CSK",
         "role": "BOWLER",
         "credits": 7.0,
         "total_api_points": 8.0,
         "owner_points": 8.0,
-        "status": "original",
+        "status": "dropped",
         "phase": "M1-M25"
+      },
+      {
+        "name": "Shardul Thakur",
+        "team": "MI",
+        "role": "ALL ROUNDER",
+        "credits": 9.0,
+        "total_api_points": 169.0,
+        "owner_points": 0.0,
+        "status": "replacement",
+        "phase": "M51+"
       },
       {
         "name": "Ishant Sharma",
@@ -227,7 +247,7 @@
   },
   "Vignesh": {
     "active_count": 20,
-    "total_points": 5134.0,
+    "total_points": 5175.0,
     "players": [
       {
         "name": "KL Rahul",
@@ -337,7 +357,7 @@
         "total_api_points": 253.0,
         "owner_points": 212.0,
         "status": "replacement",
-        "phase": "M26-M52"
+        "phase": "M26-M50"
       },
       {
         "name": "Ashutosh Sharma",
@@ -376,7 +396,7 @@
         "credits": 7.0,
         "total_api_points": 144.0,
         "owner_points": 144.0,
-        "status": "original",
+        "status": "dropped",
         "phase": "M1-M25"
       },
       {
@@ -407,7 +427,17 @@
         "total_api_points": 257.0,
         "owner_points": 54.0,
         "status": "replacement",
-        "phase": "M26-M52"
+        "phase": "M26-M50"
+      },
+      {
+        "name": "Jacob Bethell",
+        "team": "RCB",
+        "role": "BATSMAN",
+        "credits": 7.5,
+        "total_api_points": 126.0,
+        "owner_points": 41.0,
+        "status": "replacement",
+        "phase": "M51+"
       },
       {
         "name": "Harshal Patel",
@@ -420,14 +450,14 @@
         "phase": "M1-M25"
       },
       {
-        "name": "Mitchell Owen",
-        "team": "PBKS",
-        "role": "ALL ROUNDER",
+        "name": "Mukesh Choudhary",
+        "team": "CSK",
+        "role": "BOWLER",
         "credits": 7.5,
-        "total_api_points": 0.0,
+        "total_api_points": 138.0,
         "owner_points": 0.0,
-        "status": "original",
-        "phase": "M1-M25"
+        "status": "replacement",
+        "phase": "M51+"
       },
       {
         "name": "Mayank Yadav",
@@ -442,6 +472,16 @@
       {
         "name": "Mangesh Yadav",
         "team": "RCB",
+        "role": "ALL ROUNDER",
+        "credits": 7.5,
+        "total_api_points": 0.0,
+        "owner_points": 0.0,
+        "status": "dropped",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Mitchell Owen",
+        "team": "PBKS",
         "role": "ALL ROUNDER",
         "credits": 7.5,
         "total_api_points": 0.0,
@@ -593,7 +633,7 @@
         "total_api_points": 308.0,
         "owner_points": 238.0,
         "status": "replacement",
-        "phase": "M26-M52"
+        "phase": "M26-M50"
       },
       {
         "name": "Sakib Hussain",
@@ -603,7 +643,7 @@
         "total_api_points": 310.0,
         "owner_points": 188.0,
         "status": "replacement",
-        "phase": "M26-M52"
+        "phase": "M26-M50"
       },
       {
         "name": "Digvesh Singh",
@@ -885,7 +925,7 @@
   },
   "Barath": {
     "active_count": 20,
-    "total_points": 7175.0,
+    "total_points": 7187.0,
     "players": [
       {
         "name": "Sanju Samson",
@@ -1005,7 +1045,7 @@
         "total_api_points": 604.0,
         "owner_points": 383.0,
         "status": "replacement",
-        "phase": "M26-M52"
+        "phase": "M26-M50"
       },
       {
         "name": "Marco Jansen",
@@ -1044,7 +1084,7 @@
         "credits": 9.0,
         "total_api_points": 185.0,
         "owner_points": 185.0,
-        "status": "original",
+        "status": "dropped",
         "phase": "M1-M25"
       },
       {
@@ -1078,6 +1118,16 @@
         "phase": "M1-M25"
       },
       {
+        "name": "Arshad Khan",
+        "team": "GT",
+        "role": "BOWLER",
+        "credits": 8.0,
+        "total_api_points": 170.0,
+        "owner_points": 12.0,
+        "status": "replacement",
+        "phase": "M51+"
+      },
+      {
         "name": "Mayank Markande",
         "team": "MI",
         "role": "BOWLER",
@@ -1094,8 +1144,18 @@
         "credits": 7.5,
         "total_api_points": 5.0,
         "owner_points": 5.0,
-        "status": "original",
+        "status": "dropped",
         "phase": "M1-M25"
+      },
+      {
+        "name": "Phil Salt",
+        "team": "RCB",
+        "role": "WICKET KEEPER",
+        "credits": 9.5,
+        "total_api_points": 348.0,
+        "owner_points": 0.0,
+        "status": "replacement",
+        "phase": "M51+"
       },
       {
         "name": "Ashok Sharma",
@@ -1105,13 +1165,13 @@
         "total_api_points": 165.0,
         "owner_points": -1.0,
         "status": "replacement",
-        "phase": "M26-M52"
+        "phase": "M26-M50"
       }
     ]
   },
   "JR": {
     "active_count": 20,
-    "total_points": 4772.0,
+    "total_points": 4835.0,
     "players": [
       {
         "name": "Shubman Gill",
@@ -1130,16 +1190,6 @@
         "credits": 10.0,
         "total_api_points": 549.0,
         "owner_points": 549.0,
-        "status": "original",
-        "phase": "M1-M25"
-      },
-      {
-        "name": "Axar Patel",
-        "team": "DC",
-        "role": "ALL ROUNDER",
-        "credits": 9.5,
-        "total_api_points": 371.0,
-        "owner_points": 371.0,
         "status": "original",
         "phase": "M1-M25"
       },
@@ -1171,6 +1221,16 @@
         "total_api_points": 330.0,
         "owner_points": 330.0,
         "status": "original",
+        "phase": "M1-M25"
+      },
+      {
+        "name": "Axar Patel",
+        "team": "DC",
+        "role": "ALL ROUNDER",
+        "credits": 9.5,
+        "total_api_points": 371.0,
+        "owner_points": 325.0,
+        "status": "dropped",
         "phase": "M1-M25"
       },
       {
@@ -1231,7 +1291,7 @@
         "total_api_points": 403.0,
         "owner_points": 164.0,
         "status": "replacement",
-        "phase": "M26-M52"
+        "phase": "M26-M50"
       },
       {
         "name": "Sandeep Sharma",
@@ -1261,7 +1321,17 @@
         "total_api_points": 257.0,
         "owner_points": 122.0,
         "status": "replacement",
-        "phase": "M26-M52"
+        "phase": "M26-M50"
+      },
+      {
+        "name": "Urvil Patel",
+        "team": "CSK",
+        "role": "WICKET KEEPER",
+        "credits": 8.0,
+        "total_api_points": 191.0,
+        "owner_points": 109.0,
+        "status": "replacement",
+        "phase": "M51+"
       },
       {
         "name": "Mitchell Starc",
@@ -1280,7 +1350,7 @@
         "credits": 9.5,
         "total_api_points": 70.0,
         "owner_points": 70.0,
-        "status": "original",
+        "status": "dropped",
         "phase": "M1-M25"
       },
       {
@@ -1312,6 +1382,16 @@
         "owner_points": 0.0,
         "status": "original",
         "phase": "M1-M25"
+      },
+      {
+        "name": "Eshan Malinga",
+        "team": "SRH",
+        "role": "BOWLER",
+        "credits": 8.5,
+        "total_api_points": 490.0,
+        "owner_points": 0.0,
+        "status": "replacement",
+        "phase": "M51+"
       },
       {
         "name": "Brydon Carse",
@@ -1446,7 +1526,7 @@
         "credits": 9.5,
         "total_api_points": 348.0,
         "owner_points": 348.0,
-        "status": "original",
+        "status": "dropped",
         "phase": "M1-M25"
       },
       {
@@ -1507,7 +1587,7 @@
         "total_api_points": 524.0,
         "owner_points": 239.0,
         "status": "replacement",
-        "phase": "M26-M52"
+        "phase": "M26-M50"
       },
       {
         "name": "Salil Arora",
@@ -1526,7 +1606,7 @@
         "credits": 9.0,
         "total_api_points": 169.0,
         "owner_points": 169.0,
-        "status": "original",
+        "status": "dropped",
         "phase": "M1-M25"
       },
       {
@@ -1537,7 +1617,7 @@
         "total_api_points": 261.0,
         "owner_points": 94.0,
         "status": "replacement",
-        "phase": "M26-M52"
+        "phase": "M26-M50"
       },
       {
         "name": "Matt Henry",
@@ -1558,6 +1638,26 @@
         "owner_points": 20.0,
         "status": "dropped",
         "phase": "M1-M25"
+      },
+      {
+        "name": "Pat Cummins",
+        "team": "SRH",
+        "role": "BOWLER",
+        "credits": 9.5,
+        "total_api_points": 150.0,
+        "owner_points": 0.0,
+        "status": "replacement",
+        "phase": "M51+"
+      },
+      {
+        "name": "Suryansh Shedge",
+        "team": "PBKS",
+        "role": "ALL ROUNDER",
+        "credits": 7.5,
+        "total_api_points": 155.0,
+        "owner_points": 0.0,
+        "status": "replacement",
+        "phase": "M51+"
       }
     ]
   }

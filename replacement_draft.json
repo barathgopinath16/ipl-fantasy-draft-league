@@ -80,10 +80,61 @@
     },
     {
       "milestone_id": 2,
-      "after_match": 52,
-      "description": "Second replacement window — after Match 52",
-      "snapshot_gameday_id": 52,
-      "replacements": {}
+      "after_match": 50,
+      "description": "Second replacement window — after Match 50",
+      "snapshot_gameday_id": 50,
+      "replacements": {
+        "Kaushik": {
+          "dropped": [
+            "Trent Boult",
+            "Rahul Chahar"
+          ],
+          "picked": [
+            "Axar Patel",
+            "Shardul Thakur"
+          ]
+        },
+        "JR": {
+          "dropped": [
+            "Axar Patel",
+            "Khaleel Ahmed"
+          ],
+          "picked": [
+            "Eshan Malinga",
+            "Urvil Patel"
+          ]
+        },
+        "Venky": {
+          "dropped": [
+            "Phil Salt",
+            "Shardul Thakur"
+          ],
+          "picked": [
+            "Pat Cummins",
+            "Suryansh Shedge"
+          ]
+        },
+        "Barath": {
+          "dropped": [
+            "Aniket Verma",
+            "Auqib Nabi"
+          ],
+          "picked": [
+            "Arshad Khan",
+            "Phil Salt"
+          ]
+        },
+        "Vignesh": {
+          "dropped": [
+            "Mitchell Owen",
+            "Jaydev Unadkat"
+          ],
+          "picked": [
+            "Jacob Bethell",
+            "Mukesh Choudhary"
+          ]
+        }
+      }
     }
   ]
 }
