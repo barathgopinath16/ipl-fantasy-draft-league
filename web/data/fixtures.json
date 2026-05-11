@@ -517,8 +517,8 @@
       "home": "RR",
       "away": "GT",
       "venue": "Sawai Mansingh Stadium, Jaipur",
-      "result": null,
-      "status": "Pending"
+      "result": "Gujarat Titans beat Rajasthan Royals by 77 runs",
+      "status": "Completed"
     },
     {
       "match": 53,
@@ -527,8 +527,8 @@
       "home": "CSK",
       "away": "LSG",
       "venue": "MA Chidambaram Stadium, Chennai",
-      "result": null,
-      "status": "Pending"
+      "result": "Chennai Super Kings beat Lucknow Super Giants by 5 wickets",
+      "status": "Completed"
     },
     {
       "match": 54,
@@ -537,8 +537,8 @@
       "home": "RCB",
       "away": "MI",
       "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
-      "result": null,
-      "status": "Pending"
+      "result": "Royal Challengers Bengaluru beat Mumbai Indians by 2 wickets",
+      "status": "Completed"
     },
     {
       "match": 55,

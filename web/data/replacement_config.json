@@ -80,6 +80,15 @@
         },
         "snapshot_saved": true,
         "snapshot_player_count": 260
+      },
+      {
+        "milestone_id": 2,
+        "after_match": 52,
+        "description": "Second replacement window \u2014 after Match 52",
+        "snapshot_gameday_id": 52,
+        "replacements": {},
+        "snapshot_saved": true,
+        "snapshot_player_count": 265
       }
     ]
   },

@@ -19,23 +19,8 @@ let playerSearch = '';
   try {
     await loadAll();
     
-    // Try to restore from cache, but only if it has data
-    const cache = localStorage.getItem('ipl_cache');
-    if (cache) {
-      try {
-        const parsed = JSON.parse(cache);
-        // Only use cache if it has a leaderboard with points
-        if (parsed.leaderboard?.owners?.[0]?.total_points > 0) {
-          Object.assign(DATA, parsed);
-        }
-      } catch(e) { console.error('Cache load failed:', e); }
-    }
-    
     updateMeta();
     renderCurrentPage();
-    
-    // Trigger live refresh automatically
-    setTimeout(refreshData, 1000);
   } catch(e) {
     console.error('Init failed:', e);
     const lb = document.getElementById('page-leaderboard');
@@ -62,48 +47,52 @@ async function loadAll() {
 
 async function refreshData() {
   const btn = document.getElementById('refresh-btn');
-  if (btn) { btn.disabled = true; btn.innerHTML = '⏳ Fetching...'; }
+  if (btn) { btn.disabled = true; btn.innerHTML = '⏳ Fetching Live...'; }
 
   try {
-    const res = await Bridge.fetchLive();
-    if (res.ok && res.data && res.data.players.length > 0) {
-      const livePlayers = res.data.players;
-      console.log('DEBUG: First player from API:', livePlayers[0]);
-      console.log('DEBUG: Owner Map Sample:', Object.values(DATA.replacement_config.owner_map)[0].slice(0, 3));
+    if (typeof ScoringEngine === 'undefined') throw new Error('ScoringEngine not loaded');
+    
+    // 1. Use the full multi-step fetch from ScoringEngine
+    const res = await ScoringEngine.fetchLiveData();
+    
+    if (res && res.players && res.players.length > 0) {
+      const { draft, owner_map } = DATA.replacement_config;
       
-      // Calculate new leaderboard
-      if (DATA.replacement_config && typeof ScoringEngine !== 'undefined') {
-        const { draft, owner_map } = DATA.replacement_config;
-        
-        // Use current DATA as fallback for snapshots during live refresh
-        const snapshots = {}; 
-
-        const results = ScoringEngine.computeAll(livePlayers, owner_map, draft, snapshots);
-        
-        // VALIDATION: If total points is 0 for the leader, something went wrong. DO NOT OVERWRITE.
-        if (results.leaderboard?.[0]?.total_points === 0) {
-          throw new Error('Live data mapping failed (0 pts)');
-        }
-
-        DATA.leaderboard = { 
-          owners: results.leaderboard, 
-          updated_at: new Date().toLocaleTimeString() 
-        };
-        DATA.owner_rosters = results.ownerRosters;
-        DATA.all_players = results.allPlayers;
-        if (res.data.fixtures) DATA.fixtures = { fixtures: res.data.fixtures };
-
-        localStorage.setItem('ipl_cache', JSON.stringify(DATA));
-        renderCurrentPage();
-        updateMeta();
-        toast(res.message, 'success');
+      // 2. Re-calculate everything
+      const snapshots = {}; // Browser fallback
+      const results = ScoringEngine.computeAll(res.players, owner_map, draft, snapshots);
+      
+      // 3. Update Global Data
+      DATA.leaderboard = { 
+        owners: results.leaderboard, 
+        updated_at: new Date().toLocaleTimeString() 
+      };
+      DATA.owner_rosters = results.ownerRosters;
+      DATA.all_players = results.allPlayers;
+      
+      // Update fixtures from live feed
+      if (res.fixtures) {
+        // Map IPL API format back to our simple format if needed
+        const mappedFixtures = res.fixtures.map(f => ({
+          match: f.MatchNumber,
+          home: f.HomeTeamShortName,
+          away: f.AwayTeamShortName,
+          status: f.MatchStatus === 2 ? 'Completed' : 'Upcoming',
+          result: f.ResultString || ''
+        }));
+        DATA.fixtures = { fixtures: mappedFixtures };
       }
+
+      localStorage.setItem('ipl_cache', JSON.stringify(DATA));
+      renderCurrentPage();
+      updateMeta();
+      toast('Live data synced successfully!', 'success');
     } else {
-      throw new Error(res.message || 'No live data received');
+      throw new Error('Received empty player list');
     }
   } catch (e) {
     console.error('Refresh failed:', e);
-    toast(`⚠️ ${e.message || 'API Error'} - using baseline data`, 'error');
+    toast(`⚠️ ${e.message || 'API Error'} - using baseline`, 'error');
   } finally {
     if (btn) { 
       btn.disabled = false; 
@@ -148,7 +137,7 @@ function renderLeaderboard() {
   const owners = lb.owners;
   const maxPts = Math.max(...owners.map(o => o.total_points), 1);
   const totalPts = owners.reduce((a, o) => a + o.total_points, 0);
-  const matchesCompleted = fixtures.filter(f => f.MatchStatus === 2 || f.status === 'Completed').length;
+  const matchesCompleted = fixtures.filter(f => f.status === 'Completed').length;
 
   el.innerHTML = `
     <div class="page-header">
@@ -279,25 +268,25 @@ function renderFixtures() {
   if (!data) { el.innerHTML = loading(); return; }
 
   const fix = data.fixtures;
-  const completed = fix.filter(f => f.MatchStatus === 2 || f.status === 'Completed').length;
+  const completed = fix.filter(f => f.status === 'Completed').length;
 
   el.innerHTML = `
     <div class="page-header"><div class="page-title">📅 Fixtures</div><div class="page-subtitle">${completed} of ${fix.length} matches completed</div></div>
     <div class="fixture-grid">${fix.map(f => `
       <div class="fixture-card">
-        <div class="fixture-num">MATCH ${f.MatchNumber || f.match}</div>
+        <div class="fixture-num">MATCH ${f.match}</div>
         <div class="fixture-main">
           <div class="fixture-team">
-            <div class="team-circle">${(f.HomeTeamShortName || f.home || '—').substring(0,3)}</div>
-            <div class="team-name-small">${f.HomeTeamShortName || f.home || '—'}</div>
+            <div class="team-circle">${(f.home || '—').substring(0,3)}</div>
+            <div class="team-name-small">${f.home || '—'}</div>
           </div>
           <div class="fixture-vs">VS</div>
           <div class="fixture-team">
-            <div class="team-circle">${(f.AwayTeamShortName || f.away || '—').substring(0,3)}</div>
-            <div class="team-name-small">${f.AwayTeamShortName || f.away || '—'}</div>
+            <div class="team-circle">${(f.away || '—').substring(0,3)}</div>
+            <div class="team-name-small">${f.away || '—'}</div>
           </div>
         </div>
-        <div class="fixture-result">${f.result || (f.MatchStatus === 2 ? 'Completed' : 'Upcoming')}</div>
+        <div class="fixture-result">${f.result || 'Upcoming'}</div>
       </div>`).join('')}
     </div>`;
 }
@@ -334,37 +323,13 @@ function renderConfig() {
     </div>`;
 }
 
-// ── Bridge Handlers ──
+// ── Bridge ──
 window.Bridge = {
   isDesktop: () => typeof window.pywebview !== 'undefined',
   fetchLive: async () => {
+    // This is now handled via ScoringEngine.fetchLiveData() for more robustness
     if (window.Bridge.isDesktop()) return await window.pywebview.api.fetch_live();
-    
-    try {
-      const r = await fetch('/api/proxy?endpoint=mixapi');
-      const data = await r.json();
-      
-      // Handle both flat and nested responses
-      let players = [];
-      if (data.Data?.Value?.Players) players = data.Data.Value.Players;
-      else if (data.players) players = data.players;
-      else if (Array.isArray(data)) players = data;
-
-      const fr = await fetch('/api/proxy?endpoint=fixtures');
-      const fData = await fr.json();
-      let fixtures = [];
-      if (fData.Data?.Value) fixtures = fData.Data.Value;
-      else if (fData.fixtures) fixtures = fData.fixtures;
-      else if (Array.isArray(fData)) fixtures = fData;
-      
-      return { 
-        ok: true, 
-        message: 'Live data loaded', 
-        data: { players, fixtures } 
-      };
-    } catch (e) {
-      return { ok: false, message: 'API Unavailable' };
-    }
+    return { ok: false, message: 'Deprecated manual bridge' };
   }
 };
 

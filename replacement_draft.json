@@ -77,6 +77,13 @@
           ]
         }
       }
+    },
+    {
+      "milestone_id": 2,
+      "after_match": 52,
+      "description": "Second replacement window — after Match 52",
+      "snapshot_gameday_id": 52,
+      "replacements": {}
     }
   ]
 }
